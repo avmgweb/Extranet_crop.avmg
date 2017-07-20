@@ -487,82 +487,139 @@ if(\Bitrix\Main\ModuleManager::isModuleInstalled('bitrix24'))
 												<?$APPLICATION->ShowViewContent("inside_pagetitle")?>
 											</div>
 										</div>
-                                        <div>
-                                            <?$APPLICATION->IncludeComponent(
-	"bitrix:breadcrumb", 
-	"av", 
-	array(
-		"START_FROM" => "0",
-		"PATH" => "",
-		"SITE_ID" => "s1",
-		"COMPONENT_TEMPLATE" => "av"
+                                        <div class="test-wrap">
+
+                                            <div class="pull-left">
+                                                <?$APPLICATION->IncludeComponent(
+                                                    "bitrix:breadcrumb",
+                                                    "av",
+                                                    array(
+                                                        "START_FROM" => "0",
+                                                        "PATH" => "",
+                                                        "SITE_ID" => "s1",
+                                                        "COMPONENT_TEMPLATE" => "av"
+                                                    ),
+                                                    false
+                                                );?>
+                                            </div>
+                                            <div class="pull-right">
+                                                <?$APPLICATION->IncludeComponent("bitrix:catalog.search", "av", array(
+	"ACTION_VARIABLE" => "action",
+		"AJAX_MODE" => "Y",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "N",
+		"BASKET_URL" => "/cart/index.php",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"CHECK_DATES" => "N",
+		"COMPONENT_TEMPLATE" => "av",
+		"CONVERT_CURRENCY" => "Y",
+		"CURRENCY_ID" => "UAH",
+		"DETAIL_URL" => "#SERVER_NAME#/catalog/#IBLOCK_ID#",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
+		"DISPLAY_COMPARE" => "N",
+		"DISPLAY_TOP_PAGER" => "Y",
+		"ELEMENT_SORT_FIELD" => "sort",
+		"ELEMENT_SORT_FIELD2" => "id",
+		"ELEMENT_SORT_ORDER" => "asc",
+		"ELEMENT_SORT_ORDER2" => "desc",
+		"HIDE_NOT_AVAILABLE" => "N",
+		"IBLOCK_ID" => "38",
+		"IBLOCK_TYPE" => "catalog",
+		"LINE_ELEMENT_COUNT" => "5",
+		"NO_WORD_LOGIC" => "Y",
+		"OFFERS_CART_PROPERTIES" => array(
+			0 => "ID",
+			1 => "HEIGHT",
+			2 => "LENGHT",
+			3 => "STANDART",
+			4 => "WIDTH",
+			5 => "CML2_LINK",
+			6 => "MATERIAL",
+		),
+		"OFFERS_FIELD_CODE" => array(
+			0 => "ID",
+			1 => "CODE",
+			2 => "XML_ID",
+			3 => "NAME",
+			4 => "TAGS",
+			5 => "SORT",
+			6 => "PREVIEW_TEXT",
+			7 => "PREVIEW_PICTURE",
+			8 => "DETAIL_TEXT",
+			9 => "DETAIL_PICTURE",
+			10 => "DATE_ACTIVE_FROM",
+			11 => "ACTIVE_FROM",
+			12 => "DATE_ACTIVE_TO",
+			13 => "ACTIVE_TO",
+			14 => "SHOW_COUNTER",
+			15 => "SHOW_COUNTER_START",
+			16 => "IBLOCK_TYPE_ID",
+			17 => "IBLOCK_ID",
+			18 => "IBLOCK_CODE",
+			19 => "IBLOCK_NAME",
+			20 => "IBLOCK_EXTERNAL_ID",
+			21 => "DATE_CREATE",
+			22 => "CREATED_BY",
+			23 => "CREATED_USER_NAME",
+			24 => "TIMESTAMP_X",
+			25 => "MODIFIED_BY",
+			26 => "USER_NAME",
+			27 => "",
+		),
+		"OFFERS_LIMIT" => "0",
+		"OFFERS_PROPERTY_CODE" => array(
+			0 => "ID",
+			1 => "HEIGHT",
+			2 => "LENGHT",
+			3 => "STANDART",
+			4 => "WIDTH",
+			5 => "CML2_LINK",
+			6 => "MATERIAL",
+			7 => "",
+		),
+		"OFFERS_SORT_FIELD" => "name",
+		"OFFERS_SORT_FIELD2" => "shows",
+		"OFFERS_SORT_ORDER" => "asc",
+		"OFFERS_SORT_ORDER2" => "desc",
+		"PAGER_DESC_NUMBERING" => "Y",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "Y",
+		"PAGER_SHOW_ALWAYS" => "Y",
+		"PAGER_TEMPLATE" => "",
+		"PAGER_TITLE" => "Товары",
+		"PAGE_ELEMENT_COUNT" => "30",
+		"PRICE_CODE" => array(
+			0 => "BASE",
+		),
+		"PRICE_VAT_INCLUDE" => "N",
+		"PRODUCT_ID_VARIABLE" => "id",
+		"PRODUCT_PROPERTIES" => "",
+		"PRODUCT_PROPS_VARIABLE" => "prop",
+		"PRODUCT_QUANTITY_VARIABLE" => "quantity",
+		"PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"RESTART" => "N",
+		"SECTION_ID_VARIABLE" => "SECTION_ID",
+		"SECTION_URL" => "#SERVER_NAME#/catalog/",
+		"SHOW_PRICE_COUNT" => "1",
+		"USE_LANGUAGE_GUESS" => "N",
+		"USE_PRICE_COUNT" => "N",
+		"USE_PRODUCT_QUANTITY" => "Y"
 	),
-	false
+	false,
+	array(
+	"ACTIVE_COMPONENT" => "N"
+	)
 );?>
+                                            </div>
+
                                         </div>
-                                        <div>
-                                            <?$APPLICATION->IncludeComponent(
-                                                "bitrix:catalog.search",
-                                                "av",
-                                                Array(
-                                                    "ACTION_VARIABLE" => "action",
-                                                    "AJAX_MODE" => "N",
-                                                    "AJAX_OPTION_ADDITIONAL" => "",
-                                                    "AJAX_OPTION_HISTORY" => "N",
-                                                    "AJAX_OPTION_JUMP" => "N",
-                                                    "AJAX_OPTION_STYLE" => "N",
-                                                    "BASKET_URL" => "/personal/basket.php",
-                                                    "CACHE_TIME" => "36000000",
-                                                    "CACHE_TYPE" => "A",
-                                                    "CHECK_DATES" => "Y",
-                                                    "COMPONENT_TEMPLATE" => ".default",
-                                                    "CONVERT_CURRENCY" => "Y",
-                                                    "CURRENCY_ID" => "UAH",
-                                                    "DETAIL_URL" => "#SERVER_NAME#/catalog/#IBLOCK_ID#",
-                                                    "DISPLAY_BOTTOM_PAGER" => "Y",
-                                                    "DISPLAY_COMPARE" => "N",
-                                                    "DISPLAY_TOP_PAGER" => "Y",
-                                                    "ELEMENT_SORT_FIELD" => "sort",
-                                                    "ELEMENT_SORT_FIELD2" => "id",
-                                                    "ELEMENT_SORT_ORDER" => "asc",
-                                                    "ELEMENT_SORT_ORDER2" => "desc",
-                                                    "HIDE_NOT_AVAILABLE" => "N",
-                                                    "IBLOCK_ID" => "38",
-                                                    "IBLOCK_TYPE" => "catalog",
-                                                    "LINE_ELEMENT_COUNT" => "3",
-                                                    "NO_WORD_LOGIC" => "Y",
-                                                    "OFFERS_CART_PROPERTIES" => array(0=>"ID",1=>"HEIGHT",2=>"LENGHT",3=>"STANDART",4=>"WIDTH",5=>"CML2_LINK",6=>"MATERIAL",),
-                                                    "OFFERS_FIELD_CODE" => array(0=>"ID",1=>"CODE",2=>"XML_ID",3=>"NAME",4=>"TAGS",5=>"SORT",6=>"PREVIEW_TEXT",7=>"PREVIEW_PICTURE",8=>"DETAIL_TEXT",9=>"DETAIL_PICTURE",10=>"DATE_ACTIVE_FROM",11=>"ACTIVE_FROM",12=>"DATE_ACTIVE_TO",13=>"ACTIVE_TO",14=>"SHOW_COUNTER",15=>"SHOW_COUNTER_START",16=>"IBLOCK_TYPE_ID",17=>"IBLOCK_ID",18=>"IBLOCK_CODE",19=>"IBLOCK_NAME",20=>"IBLOCK_EXTERNAL_ID",21=>"DATE_CREATE",22=>"CREATED_BY",23=>"CREATED_USER_NAME",24=>"TIMESTAMP_X",25=>"MODIFIED_BY",26=>"USER_NAME",27=>"",),
-                                                    "OFFERS_LIMIT" => "0",
-                                                    "OFFERS_PROPERTY_CODE" => array(0=>"ID",1=>"HEIGHT",2=>"LENGHT",3=>"STANDART",4=>"WIDTH",5=>"CML2_LINK",6=>"MATERIAL",7=>"",),
-                                                    "OFFERS_SORT_FIELD" => "name",
-                                                    "OFFERS_SORT_FIELD2" => "shows",
-                                                    "OFFERS_SORT_ORDER" => "asc",
-                                                    "OFFERS_SORT_ORDER2" => "desc",
-                                                    "PAGER_DESC_NUMBERING" => "Y",
-                                                    "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
-                                                    "PAGER_SHOW_ALL" => "Y",
-                                                    "PAGER_SHOW_ALWAYS" => "Y",
-                                                    "PAGER_TEMPLATE" => "",
-                                                    "PAGER_TITLE" => "Товары",
-                                                    "PAGE_ELEMENT_COUNT" => "30",
-                                                    "PRICE_CODE" => array(0=>"BASE",),
-                                                    "PRICE_VAT_INCLUDE" => "N",
-                                                    "PRODUCT_ID_VARIABLE" => "id",
-                                                    "PRODUCT_PROPERTIES" => "",
-                                                    "PRODUCT_PROPS_VARIABLE" => "prop",
-                                                    "PRODUCT_QUANTITY_VARIABLE" => "quantity",
-                                                    "PROPERTY_CODE" => array(0=>"",1=>"",),
-                                                    "RESTART" => "Y",
-                                                    "SECTION_ID_VARIABLE" => "SECTION_ID",
-                                                    "SECTION_URL" => "#SERVER_NAME#/catalog/",
-                                                    "SHOW_PRICE_COUNT" => "1",
-                                                    "USE_LANGUAGE_GUESS" => "Y",
-                                                    "USE_PRICE_COUNT" => "N",
-                                                    "USE_PRODUCT_QUANTITY" => "Y"
-                                                )
-                                            );?>
-                                        </div>
+
 										<div class="pagetitle-below"><?$APPLICATION->ShowViewContent("below_pagetitle")?></div>
 									</div>
 								</td>

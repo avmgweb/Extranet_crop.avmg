@@ -1,3 +1,9 @@
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 @font-face{
 	font-family: 'OpenSans-Regular';
 	src: url('/bitrix/fonts/opensans-regular.eot');
@@ -1646,7 +1652,7 @@ td.bx-layout-inner-inner-cont {
 }
 
 .workarea-content-paddings {
-	padding: 15px 15px 20px;
+	padding: 0 15px 20px 0;
 	overflow-x: auto;
 	overflow-y: visible;
 }

@@ -48,11 +48,12 @@ if (isset($arParams["MENU_DIR"]) && !empty($arParams["MENU_DIR"]))
 	$menuId = "top_menu_id_".$menuId;
 }
 
-$APPLICATION->IncludeComponent(
-	"bitrix:main.interface.buttons",
-	"",
-	array(
-		"ID" => $menuId,
+$APPLICATION->IncludeComponent("bitrix:main.interface.buttons", "", array(
+	"ID" => $menuId,
 		"ITEMS" => $items
+	),
+	false,
+	array(
+	"ACTIVE_COMPONENT" => "N"
 	)
 );
