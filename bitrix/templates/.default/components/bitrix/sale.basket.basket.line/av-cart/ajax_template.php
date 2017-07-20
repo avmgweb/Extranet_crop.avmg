@@ -9,7 +9,7 @@ require(realpath(dirname(__FILE__)).'/top_template.php');
 if ($arParams["SHOW_PRODUCTS"] == "Y" && $arResult['NUM_PRODUCTS'] > 0)
 {
 ?>
-	<div data-role="basket-item-list " class="cart-wrap-modal bx-basket bx-opener bx-basket-item-list" id="bx_basketFKauiI">
+	<div data-role="basket-item-list" class="bx-basket-item-list">
 
 		<div id="<?=$cartId?>products" class="bx-basket-item-list-container">
 			<?foreach ($arResult["CATEGORIES"] as $category => $items):
@@ -18,10 +18,11 @@ if ($arParams["SHOW_PRODUCTS"] == "Y" && $arResult['NUM_PRODUCTS'] > 0)
 				?>
                 <div class="bx-basket-item-list-item">
                 <div class="bx-basket-item-list-item-name">
-            <table width="100%">
-                <tr class="text-center">
-                    <td ></td>
-                    <td colspan="2">Товар</td>
+            <table width="100%" class="cart-table">
+                <tr class="cart-title text-center">
+                    <td></td>
+                    <td colspan="1">Фото</td>
+                    <td colspan="1">Товар</td>
                     <td>Цена</td>
                     <td>Количество</td>
                     <td>Всего</td>
@@ -29,7 +30,7 @@ if ($arParams["SHOW_PRODUCTS"] == "Y" && $arResult['NUM_PRODUCTS'] > 0)
 				<?foreach ($items as $v):?>
 
 
-                                <tr>
+                                <tr class="main-table-row">
                                     <td>
                                         <div class="bx-basket-item-list-item-remove" onclick="<?=$cartId?>.removeItemFromCart(<?=$v['ID']?>)" title="<?=GetMessage("TSB1_DELETE")?>"></div>
                                     </td>
@@ -47,14 +48,14 @@ if ($arParams["SHOW_PRODUCTS"] == "Y" && $arResult['NUM_PRODUCTS'] > 0)
 
                                     <td><a href="<?=$v["DETAIL_PAGE_URL"]?>"><?if(strlen($v["NAME"]) > 40) { echo(substr($v["NAME"],0, 40) . "...");}else{echo $v["NAME"];};?></a></td>
 
-                                    <td class="text-right2">
+                                    <td class="text-center">
                                         <?=$v["PRICE_FORMATED"];?>&nbsp;&nbsp;
                                     </td>
 
                                     <td>
-                                        <div class="centered">
-                                            <table cellspacing="0" cellpadding="0" class="counter">
-                                                <tr>
+                                        <div class="text-center quantit-table-wrap">
+                                            <table cellspacing="0" cellpadding="0" class="counter ">
+                                                <tr >
                                                     <?if (
                                                     floatval($v["MEASURE_RATIO"]) != 0
                                                     ):
@@ -115,7 +116,7 @@ if ($arParams["SHOW_PRODUCTS"] == "Y" && $arResult['NUM_PRODUCTS'] > 0)
                                             </table>
                                         </div>
                                         <input type="hidden" id="QUANTITY_<?=$v['ID']?>" name="QUANTITY_<?=$v['ID']?>" value="<?=$v["QUANTITY"]?>" />
-                                    <td class="text-right2">
+                                    <td class="text-center">
                                         &nbsp;<?echo($v["SUM"]);?>
                                     </td>
                                 </tr>
@@ -125,18 +126,7 @@ if ($arParams["SHOW_PRODUCTS"] == "Y" && $arResult['NUM_PRODUCTS'] > 0)
                 </div>
 			<?endforeach?>
 		</div>
-        <?if ($arParams["PATH_TO_ORDER"] && $arResult["CATEGORIES"]["READY"]):?>
 
-            <div> <span class="pull-right">СУММА ЗАКАЗА&nbsp;&nbsp;<b><? echo $arResult["TOTAL_PRICE"];?>&nbsp;&nbsp;&nbsp;&nbsp;</b></span></div>
-
-
-            <br> <br>
-            <div class="pull-right modal-btn">
-                <button type="button"class="btn btn-edit" data-toggle="modal" data-target="#myModal">Вернуться к списку покупок</button>
-
-                <a href="<?=$arParams["PATH_TO_ORDER"]?>" class="btn btn-buy">Заказать</a>
-            </div>
-        <?endif?>
 	</div>
 
 	<script>

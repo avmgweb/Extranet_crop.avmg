@@ -20,7 +20,7 @@ if ($normalCount > 0):
 	<div class="bx_ordercart_order_table_container">
 		<table id="basket_items">
 			<thead>
-				<tr>
+				<tr class="table-title">
 					<td class="margin"></td>
 					<?
 					foreach ($arResult["GRID"]["HEADERS"] as $id => $arHeader):
@@ -54,7 +54,9 @@ if ($normalCount > 0):
 
 						if ($arHeader["id"] == "NAME"):
 						?>
-							<td class="item" colspan="2" id="col_<?=$arHeader["id"];?>">
+                            <td></td>
+                            <td>Фото</td>
+							<td class="item" colspan="1" id="col_<?=$arHeader["id"];?>">
 						<?
 						elseif ($arHeader["id"] == "PRICE"):
 						?>
@@ -85,7 +87,9 @@ if ($normalCount > 0):
 				<?
 				$skipHeaders = array('PROPS', 'DELAY', 'DELETE', 'TYPE');
 
+
 				foreach ($arResult["GRID"]["ROWS"] as $k => $arItem):
+
 
 					if ($arItem["DELAY"] == "N" && $arItem["CAN_BUY"] == "Y"):
 					?>
@@ -97,6 +101,32 @@ if ($normalCount > 0):
 					>
 						<td class="margin"></td>
 						<?
+
+                        if ($bDelayColumn || $bDeleteColumn):
+                            ?>
+                            <td class="control">
+                                <?
+                                if ($bDeleteColumn):
+                                    ?>
+                                    <a href="<?=str_replace("#ID#", $arItem["ID"], $arUrls["delete"])?>"
+                                       onclick="return deleteProductRow(this)">
+                                        <?=GetMessage("SALE_DELETE")?>
+                                    </a>
+                                    <br />
+                                    <?
+                                endif;
+                                if ($bDelayColumn):
+                                    ?>
+                                    <a href="<?=str_replace("#ID#", $arItem["ID"], $arUrls["delay"])?>"><?=GetMessage("SALE_DELAY")?></a>
+                                    <?
+                                endif;
+                                ?>
+                            </td>
+                            <?
+                        endif;
+
+
+
 						foreach ($arResult["GRID"]["HEADERS"] as $id => $arHeader):
 
 							if (in_array($arHeader["id"], $skipHeaders)) // some values are not shown in the columns in this template
@@ -107,6 +137,11 @@ if ($normalCount > 0):
 
 							if ($arHeader["id"] == "NAME"):
 							?>
+<pre>
+    <?php
+    print_r($arItem["SUM"]);
+    ?>
+</pre>
 								<td class="itemphoto">
 									<div class="bx_ordercart_photo_container">
 										<?
@@ -405,34 +440,12 @@ if ($normalCount > 0):
 							<?
 							endif;
 						endforeach;
-
-						if ($bDelayColumn || $bDeleteColumn):
-						?>
-							<td class="control">
-								<?
-								if ($bDeleteColumn):
-									?>
-									<a href="<?=str_replace("#ID#", $arItem["ID"], $arUrls["delete"])?>"
-										onclick="return deleteProductRow(this)">
-										<?=GetMessage("SALE_DELETE")?>
-									</a>
-									<br />
-									<?
-								endif;
-								if ($bDelayColumn):
-								?>
-									<a href="<?=str_replace("#ID#", $arItem["ID"], $arUrls["delay"])?>"><?=GetMessage("SALE_DELAY")?></a>
-								<?
-								endif;
-								?>
-							</td>
-						<?
-						endif;
 						?>
 							<td class="margin"></td>
 					</tr>
 					<?
 					endif;
+
 				endforeach;
 				?>
 			</tbody>
@@ -566,3 +579,9 @@ else:
 </div>
 <?
 endif;
+?>
+<pre>
+
+    <?
+    //print_r($arResult);?>
+</pre>

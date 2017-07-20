@@ -929,7 +929,6 @@ function enterCoupon()
 // and update values of both controls (text input field for PC and mobile quantity select) simultaneously
 function updateQuantity(controlId, basketId, ratio, bUseFloatQuantity)
 {
-	alert("updateQuantity");
 	var oldVal = BX(controlId).defaultValue,
 		newVal = parseFloat(BX(controlId).value) || 0,
 		bIsCorrectQuantityForRatio = false,
@@ -1000,7 +999,7 @@ function updateQuantity(controlId, basketId, ratio, bUseFloatQuantity)
 
 // used when quantity is changed by clicking on arrows
 function setQuantity(basketId, ratio, sign, bUseFloatQuantity)
-{alert("setQuantity");
+{
 	var curVal = parseFloat(BX("QUANTITY_INPUT_" + basketId).value),
 		newVal;
 
@@ -1035,7 +1034,7 @@ function setQuantity(basketId, ratio, sign, bUseFloatQuantity)
 }
 
 function getCorrectRatioQuantity(quantity, ratio, bUseFloatQuantity)
-{ alert("getCorrectRatioQuantity");
+{
 	var newValInt = quantity * 10000,
 		ratioInt = ratio * 10000,
 		reminder = (quantity / ratio - ((quantity / ratio).toFixed(0))).toFixed(6),
@@ -1072,7 +1071,7 @@ function getCorrectRatioQuantity(quantity, ratio, bUseFloatQuantity)
 }
 
 function correctQuantity(quantity)
-{alert("correctQuantity");
+{
 	return parseFloat((quantity * 1).toString());
 }
 
@@ -1082,7 +1081,7 @@ function correctQuantity(quantity)
  * @param {} params
  */
 function recalcBasketAjax(params)
-{ alert("recalcBasketAjax");
+{
 	if (basketPoolQuantity.isProcessing())
 	{
 		return false;
@@ -1167,7 +1166,7 @@ function recalcBasketAjax(params)
 }
 
 function showBasketItemsList(val)
-{ alert("showBasketItemsList");
+{ 
 	BX.removeClass(BX("basket_toolbar_button"), "current");
 	BX.removeClass(BX("basket_toolbar_button_delayed"), "current");
 	BX.removeClass(BX("basket_toolbar_button_subscribed"), "current");

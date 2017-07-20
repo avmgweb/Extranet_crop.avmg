@@ -200,3 +200,5 @@ else
 {
 	ShowError($arResult["ERROR_MESSAGE"]);
 }
+?>
+

@@ -469,7 +469,7 @@
 				this.smallCardNodes.aligner = this.getEntity(this.obProduct, 'main-button-container');
 			}
 
-			this.initPopup();
+			//this.initPopup();
 			this.initTabs();
 
 			if (this.smallCardNodes.panel)
@@ -3321,7 +3321,7 @@ console.log(  );
 				this.obPopupWin.setTitleBar(arResult.STATUS === 'OK' ? BX.message('TITLE_SUCCESSFUL') : BX.message('TITLE_ERROR'));
 				this.obPopupWin.setContent(popupContent);
 				this.obPopupWin.setButtons(popupButtons);
-				this.obPopupWin.show();
+				//this.obPopupWin.show();
 			}
 		},
 
