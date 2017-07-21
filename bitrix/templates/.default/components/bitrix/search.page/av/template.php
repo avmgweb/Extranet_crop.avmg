@@ -127,25 +127,16 @@ echo "Выведены товары раздела: " . $query['filter'];
                                 </div><?
                             }
                         } else {?>
-                                <div class="col-md-12 text-center">
+                                <div class="col-md-3 text-center">
 
-<?$res2 = CIBlockElement::GetByID($arItem["ITEM_ID"]);
-    $iblock_id = $arItem["ITEM_ID"];
-    $my_elements = CIBlockElement::GetList (
-        Array("ID" => "ASC"),
-        Array("IBLOCK_ID" => $iblock_id),
-        false,
-        false,
-        Array('ID', 'NAME', 'DETAIL_PAGE_URL', 'PREVIEW_PICTURE', 'DETAIL_PICTURE')
-    );
+<?
+$res2 = CIBlockElement::GetByID($arItem["ITEM_ID"]);
+$grab = GetIBlockElement($arItem["ITEM_ID"]);
+$image_prw = CFile::GetPath($grab["PREVIEW_PICTURE"]);
 
-    while($ar_fields = $my_elements->GetNext())
-    {
-        //echo $ar_fields['PREVIEW_PICTURE']." <br>";
-        $img_path = CFile::GetPath($ar_fields["PREVIEW_PICTURE"]);
-        echo $img_path." <br>";
-    }
 ?>
+                                    <div style="background-image: url(<?if($image_prw){echo $image_prw;}else{echo 'https://www.hetvitamientje.nl/templates/vitamientje_2015//images/no-image.png';}?>)" class="search-item-img"></div>
+
                                                     <b><a href="<?
                                                         $res = CIBlockElement::GetByID($arItem["ITEM_ID"]);
 
@@ -157,7 +148,7 @@ echo "Выведены товары раздела: " . $query['filter'];
                                                         }
                                                         echo  $t . $ar["CODE"];
                                                         ?>"><?=strip_tags($arItem["TITLE_FORMATED"])?></a></b>
-                                    <div><?=$arItem["BODY_FORMATED"]?></div>
+                                    <div>BODY</div>
                                 </div>
 
                             <?
