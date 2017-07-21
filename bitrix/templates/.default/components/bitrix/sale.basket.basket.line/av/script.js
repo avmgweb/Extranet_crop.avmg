@@ -186,8 +186,10 @@ BitrixSmallCart.prototype = {
 
 	removeItemFromCart: function (id)
 	{
+        
 		this.refreshCart ({sbblRemoveItemFromCart: id});
 		this.itemRemoved = true;
 		BX.onCustomEvent('OnBasketChange');
+        AvCatalogElementSkuTableUpdate();
 	}
 };

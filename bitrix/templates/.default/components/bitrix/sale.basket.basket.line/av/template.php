@@ -1,8 +1,5 @@
 <?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
-?><script>$(function () {
-        var p = $( '.catalog-main-wrap' );
-        $('.cart-wrap ').css("top", "" + p.offset().top  + "px" );
-    });</script><?
+?><?
 /**
  * @global string $componentPath
  * @global string $templateName
@@ -25,6 +22,7 @@ else
 ?><script>
 var <?=$cartId?> = new BitrixSmallCart;
 </script>
+
 <div id="<?=$cartId?>" class="cart-wrap col-md-2 <?=$cartStyle?>"><?
 	/** @var \Bitrix\Main\Page\FrameBuffered $frame */
 	$frame = $this->createFrame($cartId, false)->begin();

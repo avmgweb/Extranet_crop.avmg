@@ -8,7 +8,7 @@
 $cartStyle = 'bx-basket';
 $cartId = "bx_basket".$this->randString();
 $arParams['cartId'] = $cartId;
-
+$templateLibrary = array('popup', 'fx');
 if ($arParams['POSITION_FIXED'] == 'Y')
 {
 	$cartStyle .= "-fixed {$arParams['POSITION_HORIZONTAL']} {$arParams['POSITION_VERTICAL']}";

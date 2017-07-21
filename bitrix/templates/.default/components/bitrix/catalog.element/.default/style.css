@@ -1,3 +1,67 @@
+/* -------------------------------------------------------------------- */
+/* ---------------------------- clear style --------------------------- */
+/* -------------------------------------------------------------------- */
+.av-catalog-element-sku-table,
+.av-catalog-element-sku-table th,
+.av-catalog-element-sku-table td,
+.av-catalog-element-sku-table input
+	{
+	background: transparent;
+	border: none;
+	border-collapse: collapse;
+	font-weight: normal;
+	margin:  0;
+	padding: 0;
+	text-align: left;
+	}
+/* -------------------------------------------------------------------- */
+/* ----------------------------- sku table ---------------------------- */
+/* -------------------------------------------------------------------- */
+.av-catalog-element-sku-table    {font-size: 90%;width: 100%}
+.av-catalog-element-sku-table th,
+.av-catalog-element-sku-table td
+	{
+	border: 1px solid #D5DBDF;
+	font-weight: bold;
+	padding: 7px;
+	text-align: center;
+	vertical-align: middle;
+	}
+.av-catalog-element-sku-table th
+	{
+	background: #D5DBDF;
+	text-transform: uppercase;
+	}
+.av-catalog-element-sku-table .item-row .counter                 {width: 50px;text-align: center}
+.av-catalog-element-sku-table .item-row .counter:not([disabled]) {border-bottom: 1px solid #000}
+
+.av-catalog-element-sku-table .item-row:not(.checked) .change-block,
+.av-catalog-element-sku-table .item-row.checked       .check-block                         {display: none}
+.av-catalog-element-sku-table .item-row               .check-block  > *:hover,
+.av-catalog-element-sku-table .item-row               .change-block > *:nth-child(2):hover {cursor: pointer;text-decoration: underline}
+.av-catalog-element-sku-table .item-row               .change-block                        {display: flex;flex-direction: column}
+.av-catalog-element-sku-table .item-row               .change-block > *:nth-child(1)       {color: #CC0000}
+.av-catalog-element-sku-table .item-row               .change-block > *:nth-child(2)       {color: #999;font-weight: normal}
+
+.av-catalog-element-sku-table .item-row .ask-price-call-form:hover {cursor: pointer;text-decoration: underline}
+
+#av-catalog-element-sku-table-wrap {position: relative;min-height: 50px}
+.av-catalog-element-sku-table-preloader
+	{
+	align-items: center;
+	background: #CC0000;
+	display: flex;
+	justify-content: center;
+	opacity: 0.5;
+	position: absolute;
+	top:    0;
+	bottom: 0;
+	left:   0;
+	right:  0;
+	}
+/* -------------------------------------------------------------------- */
+/* ------------------------------- page ------------------------------- */
+/* -------------------------------------------------------------------- */
 .product-item-scu-item-text-block {
 	padding: 10px;
 }

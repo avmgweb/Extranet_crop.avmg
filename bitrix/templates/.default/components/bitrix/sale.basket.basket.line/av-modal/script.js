@@ -173,7 +173,7 @@ BitrixSmallCart.prototype = {
             $('.cart-wrap').css("position", "absolute");
 
 		}
-
+	
 	},
 
 	setCartBody: function (result)
@@ -186,9 +186,11 @@ BitrixSmallCart.prototype = {
 
 	removeItemFromCart: function (id)
 	{
+
 		this.refreshCart ({sbblRemoveItemFromCart: id});
 		this.itemRemoved = true;
 		BX.onCustomEvent('OnBasketChange');
-	alert("DELETE");
+        AvCatalogElementSkuTableUpdate();
+
 	}
 };

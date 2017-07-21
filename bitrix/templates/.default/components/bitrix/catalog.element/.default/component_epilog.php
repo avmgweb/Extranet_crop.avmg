@@ -1,13 +1,22 @@
 <? if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
 
-use Bitrix\Main\Loader;
+use
+	Bitrix\Main\Loader,
+	Bitrix\Main\Page\Asset;
 
-/**
- * @var array $templateData
- * @var array $arParams
- * @var string $templateFolder
- * @global CMain $APPLICATION
- */
+$serverRootArray = explode('/', $_SERVER["DOCUMENT_ROOT"]);
+unset($serverRootArray[count($serverRootArray) - 1]);
+$templateFolderArray = explode('/', str_replace(implode('/', $serverRootArray), '', __DIR__));
+unset($templateFolderArray[0]);
+unset($templateFolderArray[1]);
+
+$templateFolder  = '/'.implode('/', $templateFolderArray);
+$currentProtocol = $_SERVER["HTTPS"] && $_SERVER["HTTPS"] != 'off' ? 'https' : 'http';
+$domainName      = $_SERVER["SERVER_NAME"];
+
+CJSCore::Init(["jquery"]);
+Asset::getInstance()->addString('<script>AvCatalogElementUpdateTable   = "'.$currentProtocol.'://'.$domainName.$templateFolder.'/ajax/update_table.php";</script>');
+Asset::getInstance()->addString('<script>AvCatalogElementCheckPosition = "'.$currentProtocol.'://'.$domainName.$templateFolder.'/ajax/check_position.php";</script>');
 
 global $APPLICATION;
 

@@ -3,6 +3,7 @@
         display:none;
     }
 </style>
+
 <?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 /** @var array $arParams */
 /** @var array $arResult */
@@ -19,6 +20,7 @@ $templateData = array(
 	'TEMPLATE_THEME' => $this->GetFolder().'/themes/'.$arParams['TEMPLATE_THEME'].'/style.css',
 	'TEMPLATE_CLASS' => 'bx_'.$arParams['TEMPLATE_THEME'],
 );
+
 $this->addExternalCss($templateData['TEMPLATE_THEME']);
 
 $curPage = $APPLICATION->GetCurPage().'?'.$arParams["ACTION_VARIABLE"].'=';

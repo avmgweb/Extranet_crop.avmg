@@ -183,9 +183,15 @@ BitrixSmallCart.prototype = {
 		if (this.fixedPosition)
 			setTimeout(this.fixAfterRenderClosure, 100);
 	},
-
+// isFunction взято со стэка
+    function isFunction(functionToCheck)  {
+    var getType = {};
+    return functionToCheck && getType.toString.call(functionToCheck) === '[object Function]';
+}
 	removeItemFromCart: function (id)
 	{
+        AvCatalogElementSkuTableUpdate();
+    
 		this.refreshCart ({sbblRemoveItemFromCart: id});
 		this.itemRemoved = true;
 		BX.onCustomEvent('OnBasketChange');

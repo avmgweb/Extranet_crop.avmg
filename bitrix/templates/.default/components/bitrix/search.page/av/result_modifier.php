@@ -13,6 +13,9 @@ foreach ($arResult["SEARCH"] as $nItem => $arItem)
             while ($arSectionPath = $rsNav->GetNext())
                 $arItem["CHAIN_PATH"] .= ' / <a href="'.$arSectionPath["SECTION_PAGE_URL"].'">'.$arSectionPath["NAME"].'</a>';
                 $arResult["SEARCH"][$nItem]["0"] = $rsNav;
+                $arResult["SEARCH"][$nItem]["ITEM_MAIN"] = $rsElement;
+
+
         }
     } else {
 

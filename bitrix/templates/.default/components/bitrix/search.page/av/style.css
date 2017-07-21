@@ -19,7 +19,7 @@
 /* -------------------------------------------------------------------- */
 .av-search-page .items-list                         {margin: -10px}
 .av-search-page .items-list > div                   {cursor: pointer;padding: 10px}
-.av-search-page .items-list > div:not(:last-child)  {margin-bottom: 32px}
+.av-search-page .items-list > div:not(:last-child)  {margin-bottom: 5px}
 .av-search-page .items-list > div:hover,
 .av-search-page .items-list > div:active,
 .av-search-page .items-list > div:focus             {box-shadow: 0 4px 8px rgba(76,82,85,0.25)}
@@ -41,5 +41,12 @@
 /* -------------------------------------------------------------------- */
 @media (min-width: 992px)
 	{
-	.av-search-page {width: 50%}
+	.av-search-page {width: 100%}
 	}
+#filtr-search{padding-left: 10px}
+#filtr-search li{
+	list-style-type: none;
+}
+#filtr-search li a{
+	color: #000;
+}
