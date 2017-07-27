@@ -36,7 +36,7 @@ for($index = 0; $index < $itemSize; $index++)
 		$strReturn .= '
 			<div class="bx-breadcrumb-item" id="bx_breadcrumb_'.$index.'" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"'.$child.$nextRef.'>
 				'.$arrow.'
-				<a href="'.$arResult[$index]["LINK"].'" title="'.$title.'" itemprop="url">
+				<a href="/catalog/" title="'.$title.'" itemprop="url">
 					<span itemprop="title">'.$title.'</span>
 				</a>
 			</div>';

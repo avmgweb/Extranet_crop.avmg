@@ -157,7 +157,7 @@ echo "Выведены товары раздела: " . $query['filter'];
                                     $res = CIBlockElement::GetByID($arItem["ITEM_ID"]);
 
                                     $ar = $res->GetNext();
-                                    $t = "/catalog/";
+                                    $t = "/" . $ar["IBLOCK_CODE"] . "/";
 
                                     foreach($arItem["0"]->arResult as $linksURL) {
                                         $t .= $linksURL["CODE"] . "/";
@@ -170,11 +170,7 @@ echo "Выведены товары раздела: " . $query['filter'];
                                     <div>
                                         <?=strip_tags($arItem["TITLE_FORMATED"])?>
                                     </a>
-
-
-
-
-                                    </div>
+                                </div>
                                 </div>
 
                             <?

@@ -32,13 +32,24 @@ if ($arParams["SHOW_PRODUCTS"] == "Y" && $arResult['NUM_PRODUCTS'] > 0)
 						<div class="bx-basket-item-list-item-name">
 							<?if ($v["DETAIL_PAGE_URL"]):?>
                                 <div class="bx-basket-item-list-item-remove" onclick="<?=$cartId?>.removeItemFromCart(<?=$v['ID']?>)" title="<?=GetMessage("TSB1_DELETE")?>"></div>
-                                <a href="<?=$v["DETAIL_PAGE_URL"]?>"><?if(strlen($v["NAME"]) > 35) { echo(substr($v["NAME"],0, 35) . "...");}else{echo $v["NAME"];};?></a>
+                                <a href="<?
+                                $res2 = CCatalogSku::GetProductInfo($v["PRODUCT_ID"]);
+                                $nav = CIBlockElement::GetByID($res2["ID"]);
+                                if($ar_res = $nav->GetNext())
+                                    $nav2 = CIBlockSection::GetNavChain(false,$ar_res['IBLOCK_SECTION_ID']);
+                                $t = "/" . $ar_res["IBLOCK_TYPE_ID"] . "/";
+                                foreach($nav2->arResult as $chain){
+                                    $t .= $chain["CODE"] . "/" ;
+                                }
+                                echo $t . $ar_res["CODE"];
+                                ?>"><?if(strlen($v["NAME"]) > 30) { echo(substr($v["NAME"],0, 30) . "...");}else{echo $v["NAME"];};?></a>
 							<?else:?>
 								<?=$v["NAME"]?>
 							<?endif?>
                                 <div class="pull-right quantity-measure">
                                     <b><? echo($v["QUANTITY"] . $v["MEASURE_NAME"]); ?></b>
                                 </div>
+
 						</div>
 						<?if (true):/*$category != "SUBSCRIBE") TODO */?>
 							<div class="bx-basket-item-list-item-price-block">

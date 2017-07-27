@@ -20,9 +20,7 @@
 	justify-content: space-between;
 	align-items: center;
 }
-#horizontal-multilevel-menu img {
-	height: 80px;
-}
+
 /*Links*/
 #horizontal-multilevel-menu a
 {
@@ -77,11 +75,10 @@
 
 
 .secondLVL {
-
 width: 100%;
 }
 .secondLVL li:hover {
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 4px 8px rgba(76,82,85,0.25);
 }
 /*Sub-menu box*/
 #horizontal-multilevel-menu li ul

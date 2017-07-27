@@ -126,6 +126,12 @@ if ($arParams["SHOW_PRODUCTS"] == "Y" && $arResult['NUM_PRODUCTS'] > 0)
                 </div>
 			<?endforeach?>
 		</div>
+        <div class="pull-right">
+            <button type="button" class="btn btn-default"><a href="/catalog/">Вернуться в каталог</a></button>
+            <button type="button" class="btn btn-default"><a href="<?= $arParams['PATH_TO_ORDER']?>">Оформить заказ</a></button>
+
+
+        </div>
 
 	</div>
 
@@ -141,3 +147,4 @@ if ($arParams["SHOW_PRODUCTS"] == "Y" && $arResult['NUM_PRODUCTS'] > 0)
 }
 
 ?>
+
