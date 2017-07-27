@@ -37,7 +37,17 @@ if ($arParams["SHOW_PRODUCTS"] == "Y" && $arResult['NUM_PRODUCTS'] > 0)
                                     <td>
                                         <?if ($arParams["SHOW_IMAGE"] == "Y" ){
                                             if($v["PICTURE_SRC"]){?>
-                                            <a href="<?=$v["DETAIL_PAGE_URL"]?>"><img src="<?=$v["PICTURE_SRC"]?>" alt="1<?=$v["NAME"]?>"></a><?
+                                            <a href="<?
+                                            $res2 = CCatalogSku::GetProductInfo($v["PRODUCT_ID"]);
+                                            $nav = CIBlockElement::GetByID($res2["ID"]);
+                                            if($ar_res = $nav->GetNext())
+                                                $nav2 = CIBlockSection::GetNavChain(false,$ar_res['IBLOCK_SECTION_ID']);
+                                            $t = "/" . $ar_res["IBLOCK_TYPE_ID"] . "/";
+                                            foreach($nav2->arResult as $chain){
+                                                $t .= $chain["CODE"] . "/" ;
+                                            }
+                                            echo $t . $ar_res["CODE"];
+                                            ?>"><img src="<?=$v["PICTURE_SRC"]?>" alt="1<?=$v["NAME"]?>"></a><?
                                             }else{?>
                                                 <img src="https://cdn0.iconfinder.com/data/icons/general-line-set/512/photo-64.png" alt="2<?=$v["NAME"]?>" />
                                             <?}?>
@@ -45,7 +55,17 @@ if ($arParams["SHOW_PRODUCTS"] == "Y" && $arResult['NUM_PRODUCTS'] > 0)
                                     </td>
 
 
-                                    <td><a href="<?=$v["DETAIL_PAGE_URL"]?>"><?if(strlen($v["NAME"]) > 40) { echo(substr($v["NAME"],0, 40) . "...");}else{echo $v["NAME"];};?></a></td>
+                                    <td><a href="<?
+                                        $res2 = CCatalogSku::GetProductInfo($v["PRODUCT_ID"]);
+                                        $nav = CIBlockElement::GetByID($res2["ID"]);
+                                        if($ar_res = $nav->GetNext())
+                                            $nav2 = CIBlockSection::GetNavChain(false,$ar_res['IBLOCK_SECTION_ID']);
+                                        $t = "/" . $ar_res["IBLOCK_TYPE_ID"] . "/";
+                                        foreach($nav2->arResult as $chain){
+                                            $t .= $chain["CODE"] . "/" ;
+                                        }
+                                        echo $t . $ar_res["CODE"];
+                                        ?>"><?if(strlen($v["NAME"]) > 40) { echo(substr($v["NAME"],0, 40) . "...");}else{echo $v["NAME"];};?></a></td>
 
                                     <td class="text-right2">
                                         <?=$v["PRICE_FORMATED"];?>&nbsp;&nbsp;

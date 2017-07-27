@@ -46,10 +46,20 @@ if ($arParams["SHOW_PRODUCTS"] == "Y" && $arResult['NUM_PRODUCTS'] > 0)
                                     </td>
 
 
-                                    <td><a href="<?=$v["DETAIL_PAGE_URL"]?>"><?if(strlen($v["NAME"]) > 40) { echo(substr($v["NAME"],0, 40) . "...");}else{echo $v["NAME"];};?></a></td>
+                                    <td><a href="<?
+                                        $res2 = CCatalogSku::GetProductInfo($v["PRODUCT_ID"]);
+                                        $nav = CIBlockElement::GetByID($res2["ID"]);
+                                        if($ar_res = $nav->GetNext())
+                                            $nav2 = CIBlockSection::GetNavChain(false,$ar_res['IBLOCK_SECTION_ID']);
+                                        $t = "/" . $ar_res["IBLOCK_TYPE_ID"] . "/";
+                                        foreach($nav2->arResult as $chain){
+                                            $t .= $chain["CODE"] . "/" ;
+                                        }
+                                        echo $t . $ar_res["CODE"];
+                                        ?>"><?if(strlen($v["NAME"]) > 70) { echo(substr($v["NAME"],0, 70) . "...");}else{echo $v["NAME"];};?></a></td>
 
                                     <td class="text-center">
-                                        <?=$v["PRICE_FORMATED"];?>&nbsp;&nbsp;
+                                        <b><?=$v["PRICE_FORMATED"];?>&nbsp;&nbsp;</b>
                                     </td>
 
                                     <td>
@@ -117,21 +127,20 @@ if ($arParams["SHOW_PRODUCTS"] == "Y" && $arResult['NUM_PRODUCTS'] > 0)
                                         </div>
                                         <input type="hidden" id="QUANTITY_<?=$v['ID']?>" name="QUANTITY_<?=$v['ID']?>" value="<?=$v["QUANTITY"]?>" />
                                     <td class="text-center">
-                                        &nbsp;<?echo($v["SUM"]);?>
+                                        &nbsp;<b><?echo($v["SUM"]);?></b>
                                     </td>
                                 </tr>
+
 				<?endforeach?>
+                <tr >
+                    <td colspan="6 " class="table-total"><br><span>ВСЕГО К ОПЛАТЕ: </span><b><?= $arResult["TOTAL_PRICE"]?></b></td>
+                </tr>
             </table>
                 </div>
                 </div>
 			<?endforeach?>
 		</div>
-        <div class="pull-right">
-            <button type="button" class="btn btn-default"><a href="/catalog/">Вернуться в каталог</a></button>
-            <button type="button" class="btn btn-default"><a href="<?= $arParams['PATH_TO_ORDER']?>">Оформить заказ</a></button>
 
-
-        </div>
 
 	</div>
 
@@ -143,8 +152,7 @@ if ($arParams["SHOW_PRODUCTS"] == "Y" && $arResult['NUM_PRODUCTS'] > 0)
 <?
 } else {
     echo("<br><div class='text-center'>ДОБАВЬТЕ ТОВАР В КОРЗИНУ !<br></div><br>");
-
 }
-
 ?>
+
 

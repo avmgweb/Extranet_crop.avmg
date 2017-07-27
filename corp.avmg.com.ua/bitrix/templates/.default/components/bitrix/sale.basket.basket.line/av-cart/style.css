@@ -1,7 +1,12 @@
+.table-total{text-align: right !important;padding-right: 30px;}
 .cart-title{
 	background-color: #D6DBE0;
 	height: 35px;
 	font-size: 18px;
+}
+.cart-table img{
+min-height: 50px;
+margin: 5px;
 }
 .cart-table td {
 	text-align: center;
