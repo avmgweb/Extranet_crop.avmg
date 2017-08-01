@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Новости", 
+		"/partners/about/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Карьера, вакансии", 
+		"/partners/about/career/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/partners/about/contacts.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Реквизиты", 
+		"/partners/about/info/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

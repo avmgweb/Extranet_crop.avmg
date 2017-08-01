@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5b57d9a3-35a9-459e-b40e-3e5b54b44a9b" name="prod" url="http://10.10.1.10">
+        <fileTransfer host="10.10.1.10" port="22" rootFolder="/home/bitrix/ext_www" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

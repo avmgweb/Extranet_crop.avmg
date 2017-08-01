@@ -112,8 +112,10 @@ use \Bitrix\Main\Localization\Loc;
 		}
 		?>
 	</a>
-	<div class="product-item-title">
-		<a href="<?=$item['DETAIL_PAGE_URL']?>" title="<?=$productTitle?>"><?=$productTitle?></a>
+    <a  href="<?=$item['DETAIL_PAGE_URL']?>" title="<?=$imgTitle?>"
+       data-entity="image-wrapper">
+	<div class="product-item-title text-center">
+		<h4><?=$productTitle?></h4>
 	</div>
 	<?
 	if (!empty($arParams['PRODUCT_BLOCKS_ORDER']))
@@ -134,31 +136,43 @@ use \Bitrix\Main\Localization\Loc;
 							<?
 						}
 						?>
-						<span class="product-item-price-current" id="<?=$itemIds['PRICE']?>">
+						<div class="product-item-price-current text-center" id="<?=$itemIds['PRICE']?>">
 							<?
 							if (!empty($price))
 							{
-								if ($arParams['PRODUCT_DISPLAY_MODE'] === 'N' && $haveOffers)
-								{
-									echo Loc::getMessage(
-										'CT_BCI_TPL_MESS_PRICE_SIMPLE_MODE',
-										array(
-											'#PRICE#' => $price['PRINT_RATIO_PRICE'],
-											'#VALUE#' => $measureRatio,
-											'#UNIT#' => $minOffer['ITEM_MEASURE']['TITLE']
-										)
-									);
-								}
-								else
-								{
-									echo $price['PRINT_RATIO_PRICE'];
-								}
+                                $prices = array();
+                                foreach($item["OFFERS"] as $propSku){
+                                    array_push($prices, $propSku["MIN_PRICE"]["VALUE_NOVAT"]);
+                                }
+                                $key = array_search(min($prices), $prices);
+                                echo $item["OFFERS"]["$key"]["MIN_PRICE"]["VALUE_NOVAT"] . " грн";
 							}
 							?>
-						</span>
+						</div><br>
+                        <div class="sku_prop">
+                            <?
+                            foreach($item["OFFERS"]["$key"]["PROPERTIES"] as $key => $propSku2){
+                                if($key != CML2_LINK){
+                                    if($propSku2["VALUE"]) {
+                                        ?><div class="col-md-6 no-padding"><?
+                                            echo($propSku2["NAME"] . ": <br>");
+                                            $ar_res = CCatalogProduct::GetByIDEx($propSku2["VALUE"]);
+                                        if($ar_res["NAME"]){
+                                        echo $ar_res["NAME"] . "<br>";
+                                        } else {
+                                        echo $propSku2["VALUE"] . "<br>";
+                                        }
+                                        ?></div><?
+                                    }
+                                }
+                            }
+                            ?>
+                        </div>
 					</div>
 					<?
 					break;
+
+
 
 				case 'quantityLimit':
 					if ($arParams['SHOW_MAX_QUANTITY'] !== 'N')
@@ -381,30 +395,10 @@ use \Bitrix\Main\Localization\Loc;
 				case 'props':
 					if (!$haveOffers)
 					{
-						if (!empty($item['DISPLAY_PROPERTIES']))
-						{
-							?>
-							<div class="product-item-info-container product-item-hidden" data-entity="props-block">
-								<dl class="product-item-properties">
-									<?
-									foreach ($item['DISPLAY_PROPERTIES'] as $code => $displayProperty)
-									{
-										?>
-										<dt<?=(!isset($item['PROPERTY_CODE_MOBILE'][$code]) ? ' class="hidden-xs"' : '')?>>
-											<?=$displayProperty['NAME']?>
-										</dt>
-										<dd<?=(!isset($item['PROPERTY_CODE_MOBILE'][$code]) ? ' class="hidden-xs"' : '')?>>
-											<?=(is_array($displayProperty['DISPLAY_VALUE'])
-												? implode(' / ', $displayProperty['DISPLAY_VALUE'])
-												: $displayProperty['DISPLAY_VALUE'])?>
-										</dd>
-										<?
-									}
-									?>
-								</dl>
-							</div>
-							<?
-						}
+
+
+
+
 
 						if ($arParams['ADD_PROPERTIES_TO_BASKET'] === 'Y' && !empty($item['PRODUCT_PROPERTIES']))
 						{
@@ -655,4 +649,5 @@ use \Bitrix\Main\Localization\Loc;
 		<?
 	}
 	?>
+    </a>
 </div>

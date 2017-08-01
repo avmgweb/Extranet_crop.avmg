@@ -451,37 +451,29 @@ if(\Bitrix\Main\ModuleManager::isModuleInstalled('bitrix24'))
 									<div class="page-header">
 										<?
 										$APPLICATION->ShowViewContent("above_pagetitle");
-										$APPLICATION->IncludeComponent(
-											"bitrix:menu",
-											"top_horizontal",
-											array(
-												"ROOT_MENU_TYPE" => "left",
-												"MENU_CACHE_TYPE" => "N",
-												"MENU_CACHE_TIME" => "604800",
-												"MENU_CACHE_USE_GROUPS" => "N",
-												"MENU_CACHE_USE_USERS" => "Y",
-												"CACHE_SELECTED_ITEMS" => "N",
-												"MENU_CACHE_GET_VARS" => array(),
-												"MAX_LEVEL" => "1",
-												"USE_EXT" => "Y",
-												"DELAY" => "N",
-												"ALLOW_MULTI_SELECT" => "N"
-											),
-											false
-										);
+										$APPLICATION->IncludeComponent("bitrix:menu", "top_horizontal", array(
+	"ROOT_MENU_TYPE" => "left",
+		"MENU_CACHE_TYPE" => "N",
+		"MENU_CACHE_TIME" => "604800",
+		"MENU_CACHE_USE_GROUPS" => "N",
+		"MENU_CACHE_USE_USERS" => "Y",
+		"CACHE_SELECTED_ITEMS" => "N",
+		"MENU_CACHE_GET_VARS" => "",
+		"MAX_LEVEL" => "1",
+		"USE_EXT" => "Y",
+		"DELAY" => "N",
+		"ALLOW_MULTI_SELECT" => "N"
+	),
+	false,
+	array(
+	"ACTIVE_COMPONENT" => "N"
+	)
+);
 										?>
 
 										<div class="pagetitle-wrap">
 											<div class="pagetitle-inner-container">
-												<div class="pagetitle-menu" id="pagetitle-menu"><?
-													if (IsModuleInstalled("bitrix24")):
-														$GLOBALS['INTRANET_TOOLBAR']->Disable();
-													else:
-														$GLOBALS['INTRANET_TOOLBAR']->Enable();
-														$GLOBALS['INTRANET_TOOLBAR']->Show();
-													endif;
-													$APPLICATION->ShowViewContent("pagetitle")
-													?></div>
+												
 												<div class="pagetitle">
                                                     <span id="pagetitle" class="pagetitle-item"><b><?$APPLICATION->ShowTitle(false);?></b></span>
 													<span class="pagetitle-star" id="pagetitle-star"></span>
@@ -493,16 +485,16 @@ if(\Bitrix\Main\ModuleManager::isModuleInstalled('bitrix24'))
 
                                             <div class="pull-left">
                                                 <?$APPLICATION->IncludeComponent(
-                                                    "bitrix:breadcrumb",
-                                                    "av",
-                                                    array(
-                                                        "START_FROM" => "0",
-                                                        "PATH" => "",
-                                                        "SITE_ID" => "s1",
-                                                        "COMPONENT_TEMPLATE" => "av"
-                                                    ),
-                                                    false
-                                                );?>
+	"bitrix:breadcrumb", 
+	"av", 
+	array(
+		"START_FROM" => "0",
+		"PATH" => "",
+		"SITE_ID" => "s1",
+		"COMPONENT_TEMPLATE" => "av"
+	),
+	false
+);?>
                                             </div>
 
                                                 <?

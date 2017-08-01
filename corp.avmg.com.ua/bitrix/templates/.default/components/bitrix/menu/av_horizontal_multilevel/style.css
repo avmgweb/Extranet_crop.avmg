@@ -44,6 +44,7 @@
 /*Root menu selected*/
 #horizontal-multilevel-menu li a
 {
+	display: inline-table;
 	font-size: 15px;
 	color: #fff !important;
 	width: 100%;
@@ -75,7 +76,12 @@
 
 
 .secondLVL {
-width: 100%;
+width: 100;
+	position: absolute;
+	right: 0;
+}
+.secondLVL img {
+	max-height: 120px;
 }
 .secondLVL li:hover {
 	box-shadow: 0 4px 8px rgba(76,82,85,0.25);
