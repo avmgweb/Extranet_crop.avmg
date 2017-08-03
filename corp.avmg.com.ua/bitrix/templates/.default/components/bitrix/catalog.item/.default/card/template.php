@@ -125,7 +125,7 @@ use \Bitrix\Main\Localization\Loc;
 			switch ($blockName)
 			{
 				case 'price': ?>
-					<div class="product-item-info-container product-item-price-container" data-entity="price-block">
+					<div >
 						<?
 						if ($arParams['SHOW_OLD_PRICE'] === 'Y' && $price['RATIO_PRICE'] < $price['RATIO_BASE_PRICE'])
 						{
@@ -136,7 +136,7 @@ use \Bitrix\Main\Localization\Loc;
 							<?
 						}
 						?>
-						<div class="product-item-price-current text-center" id="<?=$itemIds['PRICE']?>">
+						<div class=" text-center" id="<?=$itemIds['PRICE']?>2">
 							<?
 							if (!empty($price))
 							{
@@ -145,7 +145,17 @@ use \Bitrix\Main\Localization\Loc;
                                     array_push($prices, $propSku["MIN_PRICE"]["VALUE_NOVAT"]);
                                 }
                                 $key = array_search(min($prices), $prices);
-                                echo $item["OFFERS"]["$key"]["MIN_PRICE"]["VALUE_NOVAT"] . " грн";
+                                if($item["OFFERS"]["$key"]["MIN_PRICE"]["VALUE_NOVAT"] == ""){
+                                    echo "Цена уточняется";
+                                } else {
+                                    if(count($prices) > 0) {
+                                        echo "<b>от " . $item["OFFERS"]["$key"]["MIN_PRICE"]["VALUE_NOVAT"] . " грн</b>";
+                                    } else {
+                                        echo "<b>" . $item["OFFERS"]["$key"]["MIN_PRICE"]["VALUE_NOVAT"] . " грн</b>";
+                                    }
+
+                                }
+
 							}
 							?>
 						</div><br>

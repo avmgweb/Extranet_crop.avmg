@@ -34,7 +34,7 @@ $arViewStyles = array(
 	'TILE' => array(
 		'CONT' => 'bx_catalog_tile',
 		'TITLE' => 'bx_catalog_tile_category_title',
-		'LIST' => 'bx_catalog_tile_ul',
+		'LIST' => 'av_catalog_tile_ul',
 		'EMPTY_IMG' => $this->GetFolder().'/images/tile-empty.png'
 	)
 );
@@ -64,7 +64,7 @@ if ('Y' == $arParams['SHOW_PARENT_NAME'] && 0 < $arResult['SECTION']['ID'])
 if (0 < $arResult["SECTIONS_COUNT"])
 {
 ?>
-<ul class="<? echo $arCurView['LIST']; ?>">
+<div class="<? echo $arCurView['LIST']; ?> <?if($arResult["SECTIONS"]["0"]["DEPTH_LEVEL"] > 1){?>col-md-12<?}else {?>col-md-10<?}?>">
 <?
 	switch ($arParams['VIEW_MODE'])
 	{
@@ -88,7 +88,7 @@ if (0 < $arResult["SECTIONS_COUNT"])
 							: $arSection["NAME"]
 						)
 					);
-				?><li id="<? echo $this->GetEditAreaId($arSection['ID']); ?>">
+				?><div  id="<? echo $this->GetEditAreaId($arSection['ID']); ?>">
 				<a
 					href="<? echo $arSection['SECTION_PAGE_URL']; ?>"
 					class="bx_catalog_line_img"
@@ -106,7 +106,7 @@ if (0 < $arResult["SECTIONS_COUNT"])
 					?><p class="bx_catalog_line_description"><? echo $arSection['DESCRIPTION']; ?></p><?
 				}
 				?><div style="clear: both;"></div>
-				</li><?
+				</div><?
 			}
 			unset($arSection);
 			break;
@@ -116,12 +116,12 @@ if (0 < $arResult["SECTIONS_COUNT"])
 				$this->AddEditAction($arSection['ID'], $arSection['EDIT_LINK'], $strSectionEdit);
 				$this->AddDeleteAction($arSection['ID'], $arSection['DELETE_LINK'], $strSectionDelete, $arSectionDeleteParams);
 
-				?><li id="<? echo $this->GetEditAreaId($arSection['ID']); ?>"><h2 class="bx_catalog_text_title"><a href="<? echo $arSection['SECTION_PAGE_URL']; ?>"><? echo $arSection['NAME']; ?></a><?
+				?><div BBB id="<? echo $this->GetEditAreaId($arSection['ID']); ?>"><h2 class="bx_catalog_text_title"><a href="<? echo $arSection['SECTION_PAGE_URL']; ?>"><? echo $arSection['NAME']; ?></a><?
 				if ($arParams["COUNT_ELEMENTS"])
 				{
 					?> <span>(<? echo $arSection['ELEMENT_CNT']; ?>)</span><?
 				}
-				?></h2></li><?
+				?></h2></div><?
 			}
 			unset($arSection);
 			break;
@@ -145,7 +145,7 @@ if (0 < $arResult["SECTIONS_COUNT"])
 							: $arSection["NAME"]
 						)
 					);
-				?><li id="<? echo $this->GetEditAreaId($arSection['ID']); ?>">
+				?><div class="col-md-2"  id="<? echo $this->GetEditAreaId($arSection['ID']); ?>">
 				<a
 					href="<? echo $arSection['SECTION_PAGE_URL']; ?>"
 					class="bx_catalog_tile_img"
@@ -155,14 +155,14 @@ if (0 < $arResult["SECTIONS_COUNT"])
 				> </a><?
 				if ('Y' != $arParams['HIDE_SECTION_NAME'])
 				{
-					?><h2 class="bx_catalog_tile_title"><a href="<? echo $arSection['SECTION_PAGE_URL']; ?>"><? echo $arSection['NAME']; ?></a><?
+					?><h2 class="bx_catalog_tile_title text-center"><a href="<? echo $arSection['SECTION_PAGE_URL']; ?>"><? echo $arSection['NAME']; ?></a><?
 					if ($arParams["COUNT_ELEMENTS"])
 					{
 						?> <span>(<? echo $arSection['ELEMENT_CNT']; ?>)</span><?
 					}
 				?></h2><?
 				}
-				?></li><?
+				?></div><?
 			}
 			unset($arSection);
 			break;
@@ -195,7 +195,7 @@ if (0 < $arResult["SECTIONS_COUNT"])
 				}
 
 				echo (!$boolFirst ? "\n" : ''),str_repeat("\t", $arSection['RELATIVE_DEPTH_LEVEL']);
-				?><li id="<?=$this->GetEditAreaId($arSection['ID']);?>"><h2 class="bx_sitemap_li_title"><a href="<? echo $arSection["SECTION_PAGE_URL"]; ?>"><? echo $arSection["NAME"];?><?
+				?><div SSSSS id="<?=$this->GetEditAreaId($arSection['ID']);?>"><h2 class="bx_sitemap_li_title"><a href="<? echo $arSection["SECTION_PAGE_URL"]; ?>"><? echo $arSection["NAME"];?><?
 				if ($arParams["COUNT_ELEMENTS"])
 				{
 					?> <span>(<? echo $arSection["ELEMENT_CNT"]; ?>)</span><?
@@ -218,8 +218,10 @@ if (0 < $arResult["SECTIONS_COUNT"])
 			break;
 	}
 ?>
-</ul>
+</div>
 <?
 	echo ('LINE' != $arParams['VIEW_MODE'] ? '<div style="clear: both;"></div>' : '');
 }
-?></div>
+?>
+
+</div>

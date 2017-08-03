@@ -192,13 +192,13 @@
 	line-height: 16px;
 }
 .bx-basket-item-list-item-remove{
-	display: inline-block;
-	width: 20px;
-	height:20px;
-	cursor: pointer;
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAMAAADzjKfhAAAAJFBMVEX///8yMjI6Ojpvb29wcHCEhISHh4eIiIiqqqqtra2wsLCxsbE3yvJ6AAAAAXRSTlMAQObYZgAAACxJREFUCNcFwYEBgCAMA7BYUMb2/78m9sXdJtfNMHkzcJ4DlS9FpXXKavT6ARdgANGqCJ38AAAAAElFTkSuQmCC) no-repeat center;
-	opacity: 1;
-	background-size: 10px;
+	display: inline-block !important;
+	width: 20px !important;
+	height:10px !important;
+	cursor: pointer !important;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAMAAADzjKfhAAAAJFBMVEX///8yMjI6Ojpvb29wcHCEhISHh4eIiIiqqqqtra2wsLCxsbE3yvJ6AAAAAXRSTlMAQObYZgAAACxJREFUCNcFwYEBgCAMA7BYUMb2/78m9sXdJtfNMHkzcJ4DlS9FpXXKavT6ARdgANGqCJ38AAAAAElFTkSuQmCC) no-repeat center !important;
+	opacity: 1 !important;
+	background-size: 10px !important;
 }
 .bx-basket-item-list-item-remove:hover{
 	opacity: .7;

@@ -211,7 +211,7 @@ if ($isFilter || $isSidebar): ?>
 
 			$intSectionID = $APPLICATION->IncludeComponent(
 				"bitrix:catalog.section",
-				"",
+				"a",
 				array(
 					"IBLOCK_TYPE" => $arParams["IBLOCK_TYPE"],
 					"IBLOCK_ID" => $arParams["IBLOCK_ID"],

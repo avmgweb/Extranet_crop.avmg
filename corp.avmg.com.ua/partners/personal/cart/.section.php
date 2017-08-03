@@ -1,3 +1,6 @@
 <?
-$sSectionName="cart";
+$sSectionName = "Корзина";
+$arDirProperties = array(
+
+);
 ?>

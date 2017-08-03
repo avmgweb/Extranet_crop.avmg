@@ -34,7 +34,7 @@
 	top:7px;
 }
 .cart-wrap-modal{
-	width: 100%;
+	width: 100% !important;
 }
 .modal-btn a{
 	margin: 0 15px;
@@ -94,7 +94,7 @@
 }
 @media (max-width: 767px) {
 	.bx-basket-fixed{
-		/*width: 200px;*/
+		padding: 0 !important;
 		position: fixed;
 		z-index: 1100;
 		background: #fff;

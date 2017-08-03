@@ -1,3 +1,6 @@
 <?
-$sSectionName="order";
+$sSectionName = "Мои заказы";
+$arDirProperties = array(
+
+);
 ?>

@@ -2,6 +2,20 @@
     #basket_form_container{
         display:none;
     }
+    .bx-basket-item-list-item-remove {
+        position: static !important;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        background-size: 10px;
+    }
+    .bx-basket-item-list-item{padding: 0 !important;    margin-bottom: 0 !important;}
+    .bx-basket-fixed {padding-top: 0; }
+    .modal-content .close {
+        right: 0 !important;
+    }
+
 </style>
 
 <?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();

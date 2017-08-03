@@ -1,3 +1,6 @@
 <?
-$sSectionName="personal";
+$sSectionName = "Персональный раздел";
+$arDirProperties = array(
+
+);
 ?>

@@ -34,7 +34,7 @@ $APPLICATION->SetTitle("Персональный раздел");
 		),
 		"PATH_TO_BASKET" => "/partners/personal/cart",
 		"PATH_TO_CATALOG" => "/partners/catalog/",
-		"PATH_TO_CONTACT" => "/about/contacts",
+		"PATH_TO_CONTACT" => "/partners/about/contacts",
 		"PATH_TO_PAYMENT" => "/partners/personal/order/payment",
 		"PER_PAGE" => "20",
 		"PROP_1" => array(
@@ -50,7 +50,7 @@ $APPLICATION->SetTitle("Персональный раздел");
 		"SHOW_ACCOUNT_PAGE" => "Y",
 		"SHOW_ACCOUNT_PAY_COMPONENT" => "Y",
 		"SHOW_BASKET_PAGE" => "Y",
-		"SHOW_CONTACT_PAGE" => "Y",
+		"SHOW_CONTACT_PAGE" => "N",
 		"SHOW_ORDER_PAGE" => "Y",
 		"SHOW_PRIVATE_PAGE" => "Y",
 		"SHOW_PROFILE_PAGE" => "Y",

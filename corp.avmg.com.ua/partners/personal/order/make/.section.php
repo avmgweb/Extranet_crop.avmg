@@ -1,3 +1,6 @@
 <?
-$sSectionName="make";
+$sSectionName = "Оформление заказа";
+$arDirProperties = array(
+
+);
 ?>
