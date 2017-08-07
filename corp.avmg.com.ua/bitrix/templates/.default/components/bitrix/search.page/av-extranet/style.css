@@ -55,8 +55,14 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.av-search-page .items-list {
+.items-list {
 	background-color: #fff;
 	width: 100%;
-	display: flow-root;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.items-list .col-md-3 {
+	margin: 20px 0;
 }

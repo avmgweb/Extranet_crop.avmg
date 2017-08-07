@@ -14,8 +14,9 @@ foreach($arResult as $arItem):?>
 	<?if ($arItem["IS_PARENT"]):?>
 
 		<?if ($arItem["DEPTH_LEVEL"] == 1):?>
-			<li><a href="<?=$arItem["LINK"]?>" class="<?if ($arItem["SELECTED"]):?>root-item-selected<?else:?>root-item<?endif?>"><img alt="" src="<?if($arItem["PARAMS"]["PICTURE"]){ echo CFile::GetPath(
-                    $arItem["PARAMS"]["PICTURE"]);}else {echo "http://32shop.com.ua/data/empty.gif";}?>" /><?=$arItem["TEXT"]?></a>
+			<li><a href="<?=$arItem["LINK"]?>" class="<?if ($arItem["SELECTED"]):?>root-item-selected<?else:?>root-item<?endif?>"><img alt="" src="<? if($_SERVER["HTTPS"] == "on" ){echo "https://";} else {echo "http://";}
+                echo $_SERVER['SERVER_NAME'] . CFile::GetPath(
+                        $arItem["PARAMS"]["PICTURE"]);?>" /><?=$arItem["TEXT"]?></a>
 				<ul class="secondLVL">
 		<?else:?>
 			<li<?if ($arItem["SELECTED"]):?> class="item-selected"<?endif?>><a href="<?=$arItem["LINK"]?>" class="parent"><?=$arItem["TEXT"]?></a>
@@ -27,10 +28,9 @@ foreach($arResult as $arItem):?>
 		<?if ($arItem["PERMISSION"] > "D"):?>
 
 			<?if ($arItem["DEPTH_LEVEL"] == 1):?>
-				<li><a href="<?=$arItem["LINK"]?>" class="<?if ($arItem["SELECTED"]):?>root-item-selected<?else:?>root-item<?endif?>"><?=$arItem["TEXT"]?></a></li>
-			<?else:?>
-				<li<?if ($arItem["SELECTED"]):?> class="item-selected"<?endif?>><a href="<?=$arItem["LINK"]?>"><img alt="" src="<?if($arItem["PARAMS"]["PICTURE"]){ echo CFile::GetPath(
-                        $arItem["PARAMS"]["PICTURE"]);}else {echo "http://32shop.com.ua/data/empty.gif";}?>" /><br><?=$arItem["TEXT"]?></a></li>
+				<li<?if ($arItem["SELECTED"]):?> class="item-selected"<?endif?>><a href="<?=$arItem["LINK"]?>"><img alt="title"     height="55px" src="<? if($_SERVER["HTTPS"] == "on" ){echo "https://";} else {echo "http://";}
+                        echo $_SERVER['SERVER_NAME'] . CFile::GetPath(
+                                $arItem["PARAMS"]["PICTURE"]);?>" /><br><?=$arItem["TEXT"]?></a></li>
 			<?endif?>
 
 		<?else:?>
@@ -46,7 +46,6 @@ foreach($arResult as $arItem):?>
 	<?endif?>
 
 	<?$previousLevel = $arItem["DEPTH_LEVEL"];?>
-
 <?endforeach?>
 
 <?if ($previousLevel > 1)://close last item tags?>

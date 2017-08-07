@@ -1,3 +1,23 @@
+@media (max-width: 1300px) {
+	.av-search-title {
+		width: 225px;
+	}
+	.timeman-wrap{
+		display: none !important;
+	}
+	.headder-custom {
+		width: 430px !important;
+	}
+	.headder-custom {
+		display: flex;
+		width: 502px;
+		padding: 0;
+		margin: 0;
+	}
+	.phone-headder{
+		width: 170px;
+	}
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -134,7 +154,7 @@ input::-ms-clear {display: none;}
 #header-inner {
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 0 361px 0 0;
+	padding: 0 200px 0 0;
 	position: relative;
 }
 
@@ -235,7 +255,7 @@ input::-ms-clear {display: none;}
 
 .bx-layout-inner-inner-cont {
 	height: 100%;
-    width: 100%;
+	width: 100%;
 
 }
 
@@ -320,7 +340,7 @@ td.bx-layout-inner-inner-cont {
 	font-family: OpenSans-Semibold, sans-serif;
 	line-height: 62px;
 	margin-right: 10px;
-	min-width: 185px;
+	min-width: 115px;
 	overflow: hidden;
 	vertical-align: middle;
 	white-space: nowrap;
@@ -761,7 +781,7 @@ td.bx-layout-inner-inner-cont {
 	position: absolute;
 	right: 63px;
 	top: 0;
-	width: 281px;
+	width: 220px;
 }
 
 .user-block-before {
@@ -3764,7 +3784,7 @@ a.td1:hover {
 	opacity: 0;
 	position: relative;
 	-webkit-transform: scale(0.2,0.2);
-			transform: scale(0.2,0.2);
+	transform: scale(0.2,0.2);
 	width: 160px;
 	transition: all 0.3s linear;
 }
@@ -3772,7 +3792,7 @@ a.td1:hover {
 .b24-loader-show {
 	opacity: 1;
 	-webkit-transform: scale(1,1);
-			transform: scale(1,1);
+	transform: scale(1,1);
 }
 
 .b24-loader-curtain {
@@ -3786,7 +3806,7 @@ a.td1:hover {
 
 .b24-loader-show .b24-loader-curtain {
 	-webkit-animation: load 0.9s cubic-bezier(0.32,0.31,0.7,0.55) infinite 0.3s;
-			animation: load 0.9s cubic-bezier(0.32,0.31,0.7,0.55) infinite 0.3s;
+	animation: load 0.9s cubic-bezier(0.32,0.31,0.7,0.55) infinite 0.3s;
 }
 
 
@@ -4202,10 +4222,10 @@ a.td1:hover {
 }
 
 /*.webform-small-button.intranet-toolbar-button {*/
-	/*padding: 0 12px;*/
-	/*height: 32px;*/
-	/*width: 63px;*/
-	/*box-sizing: border-box;*/
+/*padding: 0 12px;*/
+/*height: 32px;*/
+/*width: 63px;*/
+/*box-sizing: border-box;*/
 /*}*/
 
 .pagetitle-toolbar-field-view .webform-small-button.bx24-top-toolbar-add {

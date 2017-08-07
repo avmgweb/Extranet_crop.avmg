@@ -22,4 +22,3 @@ $containerId = $arParams["~CONTAINER_ID"] ? $arParams["~CONTAINER_ID"] : 'title-
 			});
 		});
 </script>
-

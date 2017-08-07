@@ -1,5 +1,6 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die()?>
-<div class="av-search-page">
+<div class="col-md-10 ">
+    <br>
 	<form method="get">
 		<?
 		$APPLICATION->IncludeComponent
@@ -53,10 +54,10 @@
 
 	<?if(count($arResult["SEARCH"])):?>
 
-
+<br>
         <div><span>Найдено товаров: <?echo count($arResult["SEARCH"]);?></span></div>
         <br>
-        <?if($arParams["SHOW_WHERE"]){?>
+        <?if(!$arParams["SHOW_WHERE"]){?>
         <div class="filter-area"><span><u>Найдено в категориях:</u></span>
             <?
             $arreyMain = array();
@@ -157,12 +158,12 @@ echo "Выведены товары раздела: " . $query['filter'];
                                     $res = CIBlockElement::GetByID($arItem["ITEM_ID"]);
 
                                     $ar = $res->GetNext();
-                                    $t = "/" . $ar["IBLOCK_CODE"] . "/";
+                                    $t = "/partners/catalog/" ;
 
                                     foreach($arItem["0"]->arResult as $linksURL) {
                                         $t .= $linksURL["CODE"] . "/";
                                     }
-                                    echo  $t . $ar["CODE"];
+                                    echo  $t . $ar["CODE"] . "/";
                                     ?>">
                                     <div style="background-image: url(<?if($image_prw){echo $image_prw;}else{echo 'https://www.hetvitamientje.nl/templates/vitamientje_2015//images/no-image.png';}?>)" class="search-item-img"></div>
 
@@ -183,8 +184,10 @@ echo "Выведены товары раздела: " . $query['filter'];
                     <?=$arResult["NAV_STRING"]?>
                 </div>
             <?endif?>
+
 	    </div>
 	<?endif?>
 
-
+<br>
 </div>
+<br>

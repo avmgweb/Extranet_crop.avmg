@@ -2,190 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9dd59b9-254f-425e-8569-30419a665857" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/result_modifier.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/result_modifier.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/.parameters.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/.parameters.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/component_epilog.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/component_epilog.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/functions.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/functions.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/images/arr_left.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/images/arr_left.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/images/arr_right.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/images/arr_right.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/images/fade_left.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/images/fade_left.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/images/fade_right.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/images/fade_right.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/images/missing.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/images/missing.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/images/no_photo.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/images/no_photo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/images/stick.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/images/stick.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/images/stick_disc.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/images/stick_disc.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/images/wait.gif" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/images/wait.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/images/x2border.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/images/x2border.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/lang/en/.parameters.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/lang/en/.parameters.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/lang/en/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/lang/en/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/lang/ru/.parameters.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/lang/ru/.parameters.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/lang/ru/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/lang/ru/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/result_modifier.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/result_modifier.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/script.js" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/script.map.js" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/script.map.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/script543.min.js" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/script543.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/black/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/black/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/black/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/black/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/black/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/black/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/blue/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/blue/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/blue/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/blue/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/blue/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/blue/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/blue/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/blue/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/green/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/green/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/green/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/green/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/green/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/green/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/green/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/green/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/red/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/red/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/red/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/red/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/red/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/red/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/red/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/red/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/wood/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/wood/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/wood/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/wood/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/yellow/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/yellow/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/yellow/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/yellow/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/yellow/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/yellow/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/themes/yellow/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/themes/yellow/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/.parameters.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/.parameters.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/component_epilog.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/component_epilog.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/functions.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/functions.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/images/arr_left.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/images/arr_left.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/images/arr_right.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/images/arr_right.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/images/fade_left.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/images/fade_left.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/images/fade_right.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/images/fade_right.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/images/missing.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/images/missing.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/images/no_photo.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/images/no_photo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/images/stick.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/images/stick.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/images/stick_disc.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/images/stick_disc.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/images/wait.gif" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/images/wait.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/images/x2border.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/images/x2border.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/lang/en/.parameters.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/lang/en/.parameters.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/lang/en/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/lang/en/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/lang/ru/.parameters.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/lang/ru/.parameters.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/lang/ru/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/lang/ru/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/script.js" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/script.map.js" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/script.map.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/script.min.js" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/script.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/black/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/black/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/black/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/black/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/black/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/black/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/blue/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/blue/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/blue/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/blue/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/blue/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/blue/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/blue/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/blue/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/green/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/green/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/green/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/green/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/green/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/green/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/green/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/green/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/red/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/red/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/red/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/red/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/red/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/red/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/red/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/red/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/wood/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/wood/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/wood/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/wood/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/yellow/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/yellow/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/yellow/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/yellow/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/yellow/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/yellow/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default2/themes/yellow/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/themes/yellow/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/.parameters.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/.parameters.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/ajax/check_position.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/ajax/check_position.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/ajax/update_table.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/ajax/update_table.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/component_epilog.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/component_epilog.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/functions.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/functions.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/images/arr_left.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/images/arr_left.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/images/arr_right.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/images/arr_right.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/images/fade_left.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/images/fade_left.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/images/fade_right.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/images/fade_right.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/images/missing.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/images/missing.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/images/no_photo.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/images/no_photo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/images/stick.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/images/stick.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/images/stick_disc.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/images/stick_disc.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/images/wait.gif" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/images/wait.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/images/x2border.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/images/x2border.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/lang/ru/.parameters.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/lang/ru/.parameters.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/lang/ru/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/lang/ru/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/old_table.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/old_table.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/result_modifier.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/result_modifier.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/script.js" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default2/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/black/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/black/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/black/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/black/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/black/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/black/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/blue/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/blue/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/blue/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/blue/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/blue/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/blue/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/blue/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/blue/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/green/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/green/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/green/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/green/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/green/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/green/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/green/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/green/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/red/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/red/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/red/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/red/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/red/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/red/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/red/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/red/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/wood/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/wood/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/wood/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/wood/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/yellow/images/bt_cart.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/yellow/images/bt_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/yellow/images/x2border_active.png" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/yellow/images/x2border_active.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/yellow/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/yellow/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/themes/yellow/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element2/.default3/themes/yellow/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/card/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/card/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/component_epilog.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/component_epilog.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/lang/en/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/lang/en/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/lang/ru/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/lang/ru/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/line/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/line/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/script.js" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/script.map.js" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/script.map.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/script.min.js" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/script.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/style.min.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/style.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/bitrix/search.page/.default/chain_template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av-extranet/bitrix/search.page/.default/chain_template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/bitrix/search.page/.default/lang/en/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av-extranet/bitrix/search.page/.default/lang/en/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/bitrix/search.page/.default/lang/ru/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av-extranet/bitrix/search.page/.default/lang/ru/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/bitrix/search.page/.default/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av-extranet/bitrix/search.page/.default/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/lang/en/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av-extranet/lang/en/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/lang/ru/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av-extranet/lang/ru/template.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av-extranet/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av-extranet/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.section.list/av/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.section.list/av/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.section.list/av/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.section.list/av/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/element.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/element.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/result_modifier.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/result_modifier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/bitrix/catalog.search/.default/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/bitrix/catalog.search/.default/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/section_horizontal.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/section_horizontal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/section_vertical.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/section_vertical.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/sections.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/sections.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/form.result.new/av/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/form.result.new/av/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/menu/av_horizontal_multilevel/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/menu/av_horizontal_multilevel/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/av-modal/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/av-modal/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/av/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/av/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket/av-for-modal/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket/av-for-modal/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.page/av/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.page/av/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.page/av/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.page/av/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/menu/av_horizontal_multilevel/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/menu/av_horizontal_multilevel/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/news.list/av_bases/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/news.list/av_bases/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.page/av-extranet/style.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.page/av-extranet/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.page/av-extranet/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.page/av-extranet/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.title/av/ajax.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.title/av/ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.title/av/template.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.title/av/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/header.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/template_styles.css" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/template_styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/partners/.left.menu.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/partners/.left.menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/partners/.top.menu.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/partners/.top.menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/partners/catalog/index.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/partners/catalog/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/partners/catalog/sidebar.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/partners/catalog/sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/partners/personal/.section.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/partners/personal/.section.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/partners/personal/cart/.section.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/partners/personal/cart/.section.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/partners/personal/cart/index.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/partners/personal/cart/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/partners/personal/index.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/partners/personal/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/partners/personal/order/.section.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/partners/personal/order/.section.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/partners/personal/order/make/.section.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/partners/personal/order/make/.section.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/partners/personal/order/make/index.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/partners/personal/order/make/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/partners/search/index.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/partners/search/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corp.avmg.com.ua/partners/.top.menu_ext.php" afterPath="$PROJECT_DIR$/corp.avmg.com.ua/partners/.top.menu_ext.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -198,33 +34,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/template.php">
+        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.page/av-extranet/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="306" column="32" lean-forward="false" selection-start-line="306" selection-start-column="32" selection-end-line="306" selection-end-column="32" />
+            <state relative-caret-position="418">
+              <caret line="56" column="3" lean-forward="false" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="77" lean-forward="false" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -232,321 +46,39 @@
       <file leaf-file-name="header.php" pinned="true" current-in-tab="false">
         <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="555" column="0" lean-forward="false" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="564" column="60" lean-forward="false" selection-start-line="564" selection-start-column="47" selection-end-line="564" selection-end-column="97" />
               <folding>
-                <marker date="0" expanded="true" signature="17999:18642" ph="..." />
-                <marker date="0" expanded="true" signature="18018:18088" ph="..." />
-                <marker date="0" expanded="true" signature="18139:18262" ph="..." />
-                <marker date="0" expanded="true" signature="18188:18248" ph="..." />
-                <marker date="0" expanded="true" signature="18275:18626" ph="..." />
-                <marker date="0" expanded="true" signature="18324:18612" ph="..." />
-                <marker date="0" expanded="true" signature="18354:18597" ph="..." />
-                <marker date="0" expanded="true" signature="18393:18580" ph="..." />
-                <marker date="0" expanded="true" signature="18445:18562" ph="..." />
+                <marker date="0" expanded="true" signature="18887:19530" ph="..." />
+                <marker date="0" expanded="true" signature="18906:18976" ph="..." />
+                <marker date="0" expanded="true" signature="19027:19150" ph="..." />
+                <marker date="0" expanded="true" signature="19076:19136" ph="..." />
+                <marker date="0" expanded="true" signature="19163:19514" ph="..." />
+                <marker date="0" expanded="true" signature="19212:19500" ph="..." />
+                <marker date="0" expanded="true" signature="19242:19485" ph="..." />
+                <marker date="0" expanded="true" signature="19281:19468" ph="..." />
+                <marker date="0" expanded="true" signature="19333:19450" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/template.php">
+      <file leaf-file-name="header.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/search/map.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/search/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajax_template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/av-modal/ajax_template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chain_template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/bitrix/search.page/.default/chain_template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/bitrix/search.page/.default/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="section.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/section.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="78" column="2" lean-forward="false" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="compare.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/compare.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-167">
-              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/search.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1830">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="section_vertical.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/section_vertical.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="213" column="18" lean-forward="false" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="element.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/element.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1320">
-              <caret line="335" column="17" lean-forward="false" selection-start-line="335" selection-start-column="17" selection-end-line="335" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/bitrix/catalog.compare.list/.default/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1218">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/bitrix/catalog.compare.result/.default/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1098">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/bitrix/catalog.section.list/.default/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="section_horizontal.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/section_horizontal.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="194" column="21" lean-forward="false" selection-start-line="194" selection-start-column="21" selection-end-line="194" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.section.list/av/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="567" column="76" lean-forward="false" selection-start-line="567" selection-start-column="76" selection-end-line="567" selection-end-column="76" />
               <folding>
-                <marker date="0" expanded="true" signature="8040:8052" ph="..." />
+                <marker date="0" expanded="true" signature="22345:22988" ph="..." />
+                <marker date="0" expanded="true" signature="22364:22434" ph="..." />
+                <marker date="0" expanded="true" signature="22485:22608" ph="..." />
+                <marker date="0" expanded="true" signature="22534:22594" ph="..." />
+                <marker date="0" expanded="true" signature="22621:22972" ph="..." />
+                <marker date="0" expanded="true" signature="22670:22958" ph="..." />
+                <marker date="0" expanded="true" signature="22700:22943" ph="..." />
+                <marker date="0" expanded="true" signature="22739:22926" ph="..." />
+                <marker date="0" expanded="true" signature="22791:22908" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.section.list/av/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="198" column="33" lean-forward="false" selection-start-line="198" selection-start-column="33" selection-end-line="198" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urlrewrite.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/urlrewrite.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="339" column="49" lean-forward="false" selection-start-line="339" selection-start-column="49" selection-end-line="339" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ustat.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/ustat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".left.menu.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/.left.menu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".left.menu3.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/.left.menu3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".left.menu_ext3.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/.left.menu_ext3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-626">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".top.menu_ext2.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/.top.menu_ext2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2867">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".left.menu_ext.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/.left.menu_ext.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1238">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".top.menu_ext.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/.top.menu_ext.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2867">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/catalog/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="661" column="29" lean-forward="false" selection-start-line="661" selection-start-column="29" selection-end-line="661" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="247" column="40" lean-forward="false" selection-start-line="247" selection-start-column="32" selection-end-line="247" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/card/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="151" column="44" lean-forward="false" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="44" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -554,17 +86,17 @@
       <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
         <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.section.list/av/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3360">
+            <state relative-caret-position="-663">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="0" expanded="true" signature="7901:7913" ph="..." />
+                <marker date="0" expanded="true" signature="8040:8052" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="component_epilog.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/component_epilog.php">
+      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/card/template.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -574,253 +106,113 @@
         </entry>
       </file>
       <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/card/template.php">
+        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="151" column="44" lean-forward="false" selection-start-line="151" selection-start-column="36" selection-end-line="151" selection-end-column="44" />
+            <state relative-caret-position="-1173">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/section.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-949">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section_horizontal.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/section_horizontal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/line/template.php">
+        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.smart.filter/av-extranet/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="355" column="44" lean-forward="false" selection-start-line="355" selection-start-column="36" selection-end-line="355" selection-end-column="44" />
+            <state relative-caret-position="88">
+              <caret line="638" column="34" lean-forward="false" selection-start-line="638" selection-start-column="34" selection-end-line="638" selection-end-column="34" />
+              <folding>
+                <element signature="n#src#0;n#img#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.smart.filter/av-extranet/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".parameters.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.smart.filter/av-extranet/.parameters.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-810">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/components/bitrix/catalog.smart.filter/templates/.default/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.smart.filter/templates/visual_horizontal/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.smart.filter/templates/.default/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/av/style.css">
+        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.page/av-extranet/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="185" column="25" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="25" />
-              <folding>
-                <element signature="e#3547#3790#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/av/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="342">
+              <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket/av-for-modal/template.php">
+        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/bitrix/catalog.search/.default/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1224">
-              <caret line="12" column="72" lean-forward="false" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/personal/cart/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sections.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/sections.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logo_extranet.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/include/logo_extranet.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="79" lean-forward="false" selection-start-line="0" selection-start-column="79" selection-end-line="0" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template_styles.css" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/template_styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="382" column="23" lean-forward="false" selection-start-line="382" selection-start-column="23" selection-end-line="382" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajax_template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/extranet-headder/ajax_template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-401">
-              <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/extranet-headder/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="top_template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/extranet-headder/top_template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="57" column="104" lean-forward="false" selection-start-line="57" selection-start-column="104" selection-end-line="57" selection-end-column="104" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="small_template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/extranet-headder/small_template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/extranet-headder/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="telephony.css" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/telephony.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="headderPhone.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/include/headderPhone.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="186" lean-forward="false" selection-start-line="0" selection-start-column="186" selection-end-line="0" selection-end-column="186" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket/av/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="129" column="6" lean-forward="false" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="e#5331#5337#0#HTML" expanded="true" />
-                <element signature="e#5567#5573#0#HTML" expanded="true" />
-                <element signature="e#5816#5822#0#HTML" expanded="true" />
-                <element signature="e#6072#6078#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket/av/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="true" current-in-tab="true">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/card/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6417">
-              <caret line="555" column="53" lean-forward="false" selection-start-line="555" selection-start-column="53" selection-end-line="555" selection-end-column="53" />
-              <folding>
-                <element signature="e#3862#3868#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-226">
-              <caret line="1059" column="47" lean-forward="false" selection-start-line="1059" selection-start-column="41" selection-end-line="1059" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/av-modal/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="element.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/element.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="16" />
+            <state relative-caret-position="442">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -830,36 +222,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tem-img</find>
-      <find>headderPhone</find>
-      <find>.header-search</find>
-      <find>icon_info</find>
-      <find>.bx-basket-block a</find>
-      <find>.bx-basket</find>
-      <find>.logo img</find>
-      <find>.phone-headder</find>
-      <find>bx-basket-block</find>
-      <find>fa fa-shopping-cart</find>
-      <find>.phone-headder a</find>
-      <find>.bx-basket-block</find>
-      <find>$arViewStyles$arViewStyles</find>
-      <find>logo</find>
-      <find>phone-headder</find>
-      <find>bx_catalog_tile_ul</find>
-      <find>mmm</find>
-      <find>col-md</find>
-      <find>av_catalog_tile_ul</find>
-      <find>.bx_catalog_tile .bx_catalog_tile_category_title</find>
-      <find>avsteel</find>
-      <find>bx_catalog_tile_img</find>
-      <find>bx_catalog_tile</find>
-      <find>product-item-small-card</find>
       <find>col-md-8</find>
       <find>bitrix:catalog.search</find>
       <find>btn btn-buy</find>
       <find>sku_prop</find>
-      <find>sku</find>
       <find>prices</find>
+      <find>sku</find>
+      <find>submit</find>
+      <find>AAAAAAAAAA</find>
+      <find>AAAAAA</find>
+      <find>col-md-3 text-center</find>
+      <find>flex</find>
+      <find>PICTURE</find>
+      <find>logo</find>
+      <find>.logo</find>
+      <find>user-block</find>
+      <find>search-titl</find>
+      <find>timeman-wrap</find>
+      <find>col-md-5</find>
+      <find>header-logo-block</find>
+      <find>catalog-c</find>
+      <find>catalog</find>
+      <find>catalog-section bx-blue</find>
+      <find>header-inn</find>
+      <find>bx-filter-horizontal</find>
+      <find>col-sm-6 col-md-4</find>
+      <find>items-list</find>
+      <find>bx-filter-parameters-box</find>
+      <find>bx-filter-title</find>
+      <find>.bx-filter</find>
+      <find>При</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -868,40 +260,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/components/bitrix/search.title/av-extranet/template.php" />
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/header.php" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/.top_links.menu.php" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/menu/av_horizontal_multilevel/style.css" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/.top_links.menu.php" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/.top.menu.php" />
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/section_horizontal.php" />
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/section_vertical.php" />
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/partners/catalog/index.php" />
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.section.list/av/template.php" />
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/template.php" />
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/line/template.php" />
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/style.css" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/components/bitrix/sale.basket.basket.line/templates/.default_old/style.css" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/components/bitrix/sale.basket.basket.line/templates/.default/style.css" />
-        <option value="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default/script.js" />
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/element.php" />
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/script.js" />
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/av/style.css" />
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/template.php" />
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/partners/personal/cart/index.php" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/template.php" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/style.css" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.element/.default3/script.js" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/av-modal/style.css" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket/av/template.php" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket/av/script.js" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/av/style.css" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/av/ajax_template.php" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket/av-for-modal/template.php" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/include/logo_extranet.php" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/extranet-headder/style.css" />
         <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/sale.basket.basket.line/extranet-headder/top_template.php" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/template_styles.css" />
         <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/include/headderPhone.php" />
         <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/section_horizontal.php" />
         <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/personal/cart/index.php" />
@@ -913,12 +272,45 @@
         <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/index.php" />
         <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.section.list/av/style.css" />
         <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.section.list/av/template.php" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/header.php" />
-        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/template.php" />
         <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/catalog/index.php" />
         <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/av-extranet/card/template.php" />
-        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/card/template.php" />
         <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/card/template.php" />
+        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/.left.menu_ext.php" />
+        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/.left.menu.php" />
+        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/.top_links.menu.php" />
+        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/.top.menu_ext.php" />
+        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/partners/.top.menu.php" />
+        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/menu/av_horizontal_multilevel/style.css" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/bitrix/catalog.search/.default/bitrix/search.page/av-search/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/components/bitrix/catalog.section/templates/.default/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/bitrix/catalog.search/.default/bitrix/search.page/.default/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.section/av-extranet/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/search.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/components/bitrix/catalog/templates/.default/bitrix/catalog.search/.default/style.css" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/bitrix/catalog.search/.default/bitrix/search.page/.default/chain_template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/menu/av_horizontal_multilevel/template.php" />
+        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/menu/av_horizontal_multilevel/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/avmg.com.ua/products/black-metal/index.php" />
+        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/template_styles.css" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/template_styles.css" />
+        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/header.php" />
+        <option value="$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/header.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av-avmg/search.php" />
+        <option value="&lt;5b57d9a3-35a9-459e-b40e-3e5b54b44a9b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.search/av/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/bitrix/catalog.search/.default/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.page/av-extranet/style.css" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.page/av-extranet/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/header.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.section.list/av/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.item/.default/card/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/components/bitrix/catalog.smart.filter/templates/.default/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.smart.filter/templates/visual_horizontal/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.smart.filter/templates/.default/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/section_horizontal.php" />
+        <option value="$USER_HOME$/Downloads/if_plus_325963.svg" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.smart.filter/av-extranet/template.php" />
+        <option value="&lt;3281e836-e450-44b8-8374-b29da050939b&gt;/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog.smart.filter/av-extranet/style.css" />
       </list>
     </option>
   </component>
@@ -930,7 +322,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -982,7 +374,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partners" />
+              <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1000,7 +392,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cart" />
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix_extranet" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1120,7 +520,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="catalog.section.list" />
+              <option name="myItemId" value="search.title" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1139,6 +539,214 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search.page" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="av-extranet" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search.page" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog.search" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".default-av" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corp.avmg.com.ua" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1147,7 +755,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -1251,22 +859,25 @@
       <updated>1501052053081</updated>
       <workItem from="1501052054484" duration="41483000" />
       <workItem from="1501223754431" duration="16966000" />
-      <workItem from="1501482783531" duration="78656000" />
+      <workItem from="1501482783531" duration="81901000" />
+      <workItem from="1501754965343" duration="25035000" />
+      <workItem from="1501851680456" duration="5345000" />
+      <workItem from="1502085558128" duration="22485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137105000" />
+    <option name="totallyTimeSpent" value="193215000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3234375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21354167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1306,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="646" selection-end-column="126" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1322,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="329" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="430" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1330,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
           <caret line="464" column="8" lean-forward="false" selection-start-line="361" selection-start-column="4" selection-end-line="464" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1338,13 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-612">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1501580571547" expanded="true" signature="73337:73380" ph="..." />
-            <marker date="1501580571547" expanded="true" signature="74189:74232" ph="..." />
-            <marker date="1501580571547" expanded="true" signature="80893:80936" ph="..." />
-            <marker date="1501580571547" expanded="true" signature="81000:81016" ph="..." />
-            <marker date="1501580571547" expanded="true" signature="81835:81878" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1352,14 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="100" column="46" lean-forward="true" selection-start-line="100" selection-start-column="46" selection-end-line="100" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <marker date="1501579440206" expanded="true" signature="77912:77955" ph="..." />
-            <marker date="1501579440206" expanded="true" signature="78764:78807" ph="..." />
-            <marker date="1501579440206" expanded="true" signature="85468:85511" ph="..." />
-            <marker date="1501579440206" expanded="true" signature="85575:85591" ph="..." />
-            <marker date="1501579440206" expanded="true" signature="86410:86453" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1367,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1138">
           <caret line="16" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="112" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1375,6 +967,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="70" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corp.avmg.com.ua/3.85/.top.menu_ext.php" />
+    <entry file="file://$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/template_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4309" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/catalog/.default-av/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/bitrix_extranet/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="570" column="5" lean-forward="false" selection-start-line="570" selection-start-column="5" selection-end-line="570" selection-end-column="5" />
+          <folding>
+            <marker date="1502108642000" expanded="true" signature="18887:19530" ph="..." />
+            <marker date="1502108642000" expanded="true" signature="18906:18976" ph="..." />
+            <marker date="1502108642000" expanded="true" signature="19027:19150" ph="..." />
+            <marker date="1502108642000" expanded="true" signature="19076:19136" ph="..." />
+            <marker date="1502108642000" expanded="true" signature="19163:19514" ph="..." />
+            <marker date="1502108642000" expanded="true" signature="19212:19500" ph="..." />
+            <marker date="1502108642000" expanded="true" signature="19242:19485" ph="..." />
+            <marker date="1502108642000" expanded="true" signature="19281:19468" ph="..." />
+            <marker date="1502108642000" expanded="true" signature="19333:19450" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corp.avmg.com.ua/bitrix/templates/.default/components/bitrix/search.page/av-extranet/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/if_plus_325963.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

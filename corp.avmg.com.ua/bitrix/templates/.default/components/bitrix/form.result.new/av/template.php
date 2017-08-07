@@ -62,7 +62,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 					]
 				);
 			?>
-		</div>A
+		</div>
 	<?=$arResult["FORM_FOOTER"]?>
 </div>
 <?endif?>
