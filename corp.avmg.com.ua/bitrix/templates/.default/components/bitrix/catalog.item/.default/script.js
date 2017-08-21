@@ -735,14 +735,7 @@
 			window[this.dataLayerName].push(info);
 		},
 
-		hoverOn: function(event)
-		{
-			clearTimeout(this.hoverTimer);
-			this.obProduct.style.height = getComputedStyle(this.obProduct).height;
-			BX.addClass(this.obProduct, 'hover');
-
-			BX.PreventDefault(event);
-		},
+		
 
 		hoverOff: function(event)
 		{

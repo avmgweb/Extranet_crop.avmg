@@ -735,17 +735,10 @@
 			window[this.dataLayerName].push(info);
 		},
 
-		hoverOn: function(event)
-		{
-			clearTimeout(this.hoverTimer);
-			this.obProduct.style.height = getComputedStyle(this.obProduct).height;
-			BX.addClass(this.obProduct, 'hover');
-
-			BX.PreventDefault(event);
-		},
+		
 
 		hoverOff: function(event)
-		{
+		{/*
 			if (this.hoverStateChangeForbidden)
 				return;
 
@@ -753,16 +746,17 @@
 			this.hoverTimer = setTimeout(
 				BX.delegate(function(){
 					this.obProduct.style.height = 'auto';
+					this.obProduct.style.height = 'auto';
 				}, this),
 				300
 			);
 
 			BX.PreventDefault(event);
-		},
+		*/},
 
 		onFocus: function()
 		{
-			this.hoverStateChangeForbidden = true;
+			this.hoverStateChangeForbidden = false;
 			BX.bind(document, 'mousemove', BX.proxy(this.captureMousePosition, this));
 		},
 

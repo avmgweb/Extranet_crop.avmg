@@ -1,3 +1,14 @@
+
+
+function setParams(event) {
+	$(event.target).children("input").click();
+}
+
+function showParams() {
+	$('#btn-filter').toggleClass("active");
+    $('form.smartfilter').toggleClass("active");
+}
+
 function JCSmartFilter(ajaxURL, viewMode, params)
 {
 	this.ajaxURL = ajaxURL;

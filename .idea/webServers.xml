@@ -10,8 +10,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="880789a1-e0e0-4891-82f9-0b185b39415b" name="3.85" url="http://192.168.3.85">
-        <fileTransfer host="192.168.3.85" port="22" rootFolder="/home/bitrix/ext_www" accessType="SFTP">
+      <webServer id="880789a1-e0e0-4891-82f9-0b185b39415b" name="10.10.1.130" url="http://10.10.1.130">
+        <fileTransfer host="10.10.1.130" port="22" rootFolder="/home/bitrix/ext_www" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

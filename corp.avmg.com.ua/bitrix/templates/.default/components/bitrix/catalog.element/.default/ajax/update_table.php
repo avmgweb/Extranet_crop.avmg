@@ -21,7 +21,7 @@ $queryList = CSaleBasket::GetList
 	["ID" => 'DESC'],
 		[
 		"FUSER_ID" => CSaleBasket::GetBasketUserID(),
-		"LID"      => SITE_ID,
+		"LID"      => $arResult["SITE"],
 		"ORDER_ID" => NULL
 		],
 	false, false,
@@ -33,11 +33,11 @@ while($queryElement = $queryList->GetNext()) $arResult["BASKET_SALES"][$queryEle
 /* -------------------------------------------------------------------- */
 ?>
 <?if(count($arResult["OFFERS"])):?>
-	<table class="av-catalog-element-sku-table">
+	<table class="av-catalog-element-sku-table" data-site-id="<?=$arResult["SITE"]?>">
 		<thead>
 			<tr>
 				<?foreach($arResult["OFFERS_FIELDS"] as $field):?>
-				<th><?=$field?></th>
+				<th><?=GetMessage('AV_CATALOG_ELEMENT_INFO_TABLE_FIELD_'.$field)?></th>
 				<?endforeach?>
 
 				<?foreach($arResult["OFFERS_PROPS"] as $field):?>
@@ -68,7 +68,7 @@ while($queryElement = $queryList->GetNext()) $arResult["BASKET_SALES"][$queryEle
 				<?foreach($arResult["OFFERS_PROPS"] as $field):?>
 				<td>
 					<?if(in_array($valueInfo["PROPERTIES"][$field]["PROPERTY_TYPE"], ["N", "S", "L"])):?>
-						<?=$valueInfo["PROPERTIES"][$field]["VALUE"]?>
+					<?=$valueInfo["PROPERTIES"][$field]["VALUE"]?>
 					<?endif?>
 				</td>
 				<?endforeach?>
@@ -117,7 +117,7 @@ while($queryElement = $queryList->GetNext()) $arResult["BASKET_SALES"][$queryEle
 /* -------------------------------------------------------------------- */
 ?>
 <?elseif(count($arResult["ELEMENT_INFO"])):?>
-	<table class="av-catalog-element-sku-table">
+	<table class="av-catalog-element-sku-table" data-site-id="<?=$arResult["SITE"]?>">
 		<thead>
 			<tr>
 				<?foreach($arResult["ELEMENT_PROPS"] as $propInfo):?>

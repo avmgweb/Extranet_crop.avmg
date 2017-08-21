@@ -1,0 +1,98 @@
+/* -------------------------------------------------------------------- */
+/* ------------------------------- page ------------------------------- */
+/* -------------------------------------------------------------------- */
+.av-catalog-element                                      {display: flex;flex-wrap: wrap}
+.av-catalog-element .images-block                        {width: 250px}
+.av-catalog-element .images-block .main-image-wraper     {align-items: center;display: flex;height: 250px;overflow: hidden}
+.av-catalog-element .images-block .main-image-wraper img {width: 100%}
+.av-catalog-element .images-block .main-image-wraper img:not(.default),
+.av-catalog-element .images-block .slider-image          {cursor: pointer}
+.av-catalog-element .images-block .slider                {margin: 13px -5px 0 -5px}
+.av-catalog-element .preview-text                        {padding-left: 39px;text-align: justify;width: calc(100% - 250px)}
+.av-catalog-element .detail-text                         {margin-top: 26px;text-align: justify;width: 100%}
+/* -------------------------------------------------------------------- */
+/* ----------------------------- sku table ---------------------------- */
+/* -------------------------------------------------------------------- */
+.av-catalog-element .info-table-wraper
+	{
+	margin-top: 26px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	}
+.av-catalog-element .info-table
+	{
+	-webkit-touch-callout: none;
+	  -webkit-user-select: none;
+	     -moz-user-select: none;
+	      -ms-user-select: none;
+	          user-select: none;
+	position: absolute;
+	width: 100%;
+	}
+.av-catalog-element .info-table th,
+.av-catalog-element .info-table td
+	{
+	border: 1px solid #E2E2E2;
+	padding: calc(13px / 4) 13px;
+	text-align: center;
+	vertical-align: middle;
+	}
+.av-catalog-element .info-table th
+	{
+	background: #FAFAFA;
+	white-space: nowrap;
+	}
+.av-catalog-element .info-table .item-row .counter                      {align-items: center;display: flex}
+.av-catalog-element .info-table .item-row .counter                input {width: 50px;text-align: center}
+.av-catalog-element .info-table .item-row .counter:not(.disabled) input {border-bottom: 1px solid #000}
+.av-catalog-element .info-table .item-row .counter .checker
+	{
+	background: url(images/arrow.svg) center center no-repeat;
+	background-size: 12px;
+	cursor: pointer;
+	width:  24px;
+	height: 24px;
+	}
+.av-catalog-element .info-table .item-row .counter.disabled .checker,
+.av-catalog-element .info-table .item-row .counter          .checker.disabled {visibility: hidden}
+.av-catalog-element .info-table .item-row .counter          .checker:hover    {background-image: url(images/arrow_hover.svg)}
+.av-catalog-element .info-table .item-row .counter          .checker.back     {transform: rotate( 90deg)}
+.av-catalog-element .info-table .item-row .counter          .checker.forward  {transform: rotate(-90deg)}
+
+.av-catalog-element .info-table .item-row               .check-block                         {font-weight: bold}
+.av-catalog-element .info-table .item-row               .change-block                        {display: flex;flex-direction: column}
+.av-catalog-element .info-table .item-row               .change-block > *:nth-child(1)       {color: #CC0000;font-weight: bold}
+.av-catalog-element .info-table .item-row               .change-block > *:nth-child(2)       {color: #999}
+.av-catalog-element .info-table .item-row:not(.checked) .change-block,
+.av-catalog-element .info-table .item-row.checked       .check-block                         {display: none}
+.av-catalog-element .info-table .item-row               .check-block  > *:hover,
+.av-catalog-element .info-table .item-row               .change-block > *:nth-child(2):hover,
+.av-catalog-element .info-table .item-row               .ask-price-call-form:hover           {cursor: pointer;text-decoration: underline}
+/* -------------------------------------------------------------------- */
+/* ----------------------------- ask form ----------------------------- */
+/* -------------------------------------------------------------------- */
+.av-catalog-element-ask-form                   {display: none}
+.av-catalog-element-ask-form-wraper .form-name {font-weight: bold;text-align: center}
+.av-catalog-element-ask-form-wraper .form-body {padding-bottom: 13px}
+.av-catalog-element-ask-form-wraper .separator
+	{
+	background: #B6C0C6;
+	margin: 13px auto 6px auto;
+	width: 70%;
+	height: 1px;
+	}
+/* -------------------------------------------------------------------- */
+/* ------------------------------- media ------------------------------ */
+/* -------------------------------------------------------------------- */
+@media(max-width: 991px)
+	{
+	.av-catalog-element .images-block                    {width: 100%}
+	.av-catalog-element .images-block .main-image-wraper {margin-left: auto;margin-right: auto;width: 250px}
+	.av-catalog-element .images-block .slider            {margin-left: auto;margin-right: auto;width: 70%}
+	.av-catalog-element .preview-text                    {padding-left: 0;margin-top: 26px;width: 100%}
+	}
+@media(max-width: 767px)
+	{
+	.av-catalog-element .images-block .slider {width: calc(100% - 50px)}
+	}

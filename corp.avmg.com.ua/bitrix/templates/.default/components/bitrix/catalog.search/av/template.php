@@ -17,7 +17,7 @@ $this->addExternalCss("/bitrix/css/main/bootstrap.css");
 <?
 $arElements = $APPLICATION->IncludeComponent(
 	"bitrix:search.page",
-	"av-extranet",
+	"",
 	Array(
 		"RESTART" => $arParams["RESTART"],
 		"NO_WORD_LOGIC" => $arParams["NO_WORD_LOGIC"],

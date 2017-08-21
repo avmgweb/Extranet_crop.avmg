@@ -1,0 +1,30 @@
+.changeView {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.changeView .av-form-select .title-label {
+	padding: 4px 3px 4px 10px;
+	width: 75px;
+}
+
+
+.cube,.line {
+	margin: 0 5px;
+	cursor: pointer;
+}
+.changeView .col-md-6 {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.av-catalog .menu-col           {padding-right:  52px}
+.av-catalog .menu-minimized-col {padding-bottom: 26px;width: 250px}
+/* -------------------------------------------------------------------- */
+/* ------------------------------- media ------------------------------ */
+/* -------------------------------------------------------------------- */
+@media(max-width: 767px)
+	{
+	.av-catalog .menu-minimized-col {width: 100%}
+	}

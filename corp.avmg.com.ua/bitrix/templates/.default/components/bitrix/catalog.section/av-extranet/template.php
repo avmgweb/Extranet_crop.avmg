@@ -155,14 +155,6 @@ if ($showTopPager)
 	<?
 }
 
-if ($arParams['HIDE_SECTION_DESCRIPTION'] !== 'Y')
-{
-	?>
-	<div class="bx-section-desc bx-<?=$arParams['TEMPLATE_THEME']?>">
-		<p class="bx-section-desc-post"><?=$arResult['DESCRIPTION']?></p>
-	</div>
-	<?
-}
 ?>
 
 <div class="catalog-section bx-<?=$arParams['TEMPLATE_THEME']?>" data-entity="<?=$containerName?>">
@@ -183,9 +175,9 @@ if ($arParams['HIDE_SECTION_DESCRIPTION'] !== 'Y')
 		<?
 		foreach ($arResult['ITEM_ROWS'] as $rowData)
 		{
-			$rowItems = array_splice($arResult['ITEMS'], 0, $rowData['COUNT']);
+			$rowItems = array_splice($arResult['ITEMS'], 0, 2000);
 			?>
-			<div class="row <?=$rowData['CLASS']?>" data-entity="items-row">
+			<div >
 				<?
 				switch ($rowData['VARIANT'])
 				{
@@ -271,19 +263,16 @@ if ($arParams['HIDE_SECTION_DESCRIPTION'] !== 'Y')
 
 					case 2:
 						?>
-						<div class="col-xs-12 product-item-small-card">
-							<div class="row">
+						<div class="col-xs-12 product-item-small-card" style="padding: 0; margin: 0;">
 								<?
 								foreach ($rowItems as $item)
 								{
 									?>
-									<div class="col-sm-4 product-item-big-card">
-										<div class="row">
-											<div class="col-md-12">
+									<div class="col-sm-4  product-item-big-card <?if($_COOKIE['viewCatalog'] == "line") { echo "col-md-12";} ?> " style="padding: 0; margin: 0;">
 												<?
 												$APPLICATION->IncludeComponent(
 													'bitrix:catalog.item',
-													'',
+													'av-extranet',
 													array(
 														'RESULT' => array(
 															'ITEM' => $item,
@@ -301,13 +290,13 @@ if ($arParams['HIDE_SECTION_DESCRIPTION'] !== 'Y')
 													array('HIDE_ICONS' => 'Y')
 												);
 												?>
-											</div>
-										</div>
+
+
 									</div>
 									<?
 								}
 								?>
-							</div>
+
 						</div>
 						<?
 						break;
@@ -355,7 +344,7 @@ if ($arParams['HIDE_SECTION_DESCRIPTION'] !== 'Y')
 						$rowItemsCount = count($rowItems);
 						?>
 						<div class="col-sm-6 product-item-big-card">
-							<div class="row">
+							<div class="row"> CCCCCCC
 								<div class="col-md-12">
 									<?
 									$item = array_shift($rowItems);
@@ -384,7 +373,7 @@ if ($arParams['HIDE_SECTION_DESCRIPTION'] !== 'Y')
 							</div>
 						</div>
 						<div class="col-sm-6 product-item-small-card">
-							<div class="row">
+							<div class="row"> QQQQQQQQ
 								<?
 								for ($i = 0; $i < $rowItemsCount - 1; $i++)
 								{
@@ -424,7 +413,7 @@ if ($arParams['HIDE_SECTION_DESCRIPTION'] !== 'Y')
 						$rowItemsCount = count($rowItems);
 						?>
 						<div class="col-sm-6 product-item-small-card">
-							<div class="row">
+							<div class="row"> KKKKKKK
 								<?
 								for ($i = 0; $i < $rowItemsCount - 1; $i++)
 								{
@@ -458,7 +447,7 @@ if ($arParams['HIDE_SECTION_DESCRIPTION'] !== 'Y')
 							</div>
 						</div>
 						<div class="col-sm-6 product-item-big-card">
-							<div class="row">
+							<div class="row"> EEEEEE
 								<div class="col-md-12">
 									<?
 									$item = end($rowItems);
@@ -492,7 +481,7 @@ if ($arParams['HIDE_SECTION_DESCRIPTION'] !== 'Y')
 					case 6:
 						?>
 						<div class="col-xs-12 product-item-small-card">
-							<div class="row">
+							<div class="row"> RRRRRR
 								<?
 								foreach ($rowItems as $item)
 								{
@@ -532,7 +521,7 @@ if ($arParams['HIDE_SECTION_DESCRIPTION'] !== 'Y')
 						$rowItemsCount = count($rowItems);
 						?>
 						<div class="col-sm-6 product-item-big-card">
-							<div class="row">
+							<div class="row"> MMMMMMMMMMM
 								<div class="col-md-12">
 									<?
 									$item = array_shift($rowItems);
@@ -743,7 +732,7 @@ if ($showLazyLoad)
 if ($showBottomPager)
 {
 	?>
-	<div data-pagination-num="<?=$navParams['NavNum']?>">
+	<div data-pagination-num="<?=$navParams['NavNum']?>" class="col-md-12">
 		<!-- pagination-container -->
 		<?=$arResult['NAV_STRING']?>
 		<!-- pagination-container -->
@@ -793,3 +782,16 @@ $signedParams = $signer->sign(base64_encode(serialize($arResult['ORIGINAL_PARAME
 		container: '<?=$containerName?>'
 	});
 </script>
+
+
+<?
+
+    if ($arParams['HIDE_SECTION_DESCRIPTION'] !== 'Y')
+    {
+    ?>
+    <div class="bx-section-desc bx-<?=$arParams['TEMPLATE_THEME']?>">
+        <p class="bx-section-desc-post"><? echo $arResult['DESCRIPTION'];?></p>
+    </div>
+<?
+}
+?>

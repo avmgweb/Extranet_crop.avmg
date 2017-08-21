@@ -1,8 +1,60 @@
 .bx-filter-block .col-xs-12{
 	max-height: 200px;
 	overflow: auto;
-	min-width: 200px;
+	min-width: 196px;
 	width: auto;
+}
+.bx-filter-param-label{
+	width: 100%
+}
+
+.bx-filter-param-label label{
+	margin: 0;
+	padding: 0;
+}
+.bx-filter-param-label input {display: none}
+.bx-filter-param-label input:checked + span {
+	background: #e6e6e6;
+}
+.bx-filter-section .btn {
+	font-weight: bold;
+	border: none;
+	outline: none !important;
+}
+.bx-filter-title {
+	padding: 6px 5px;
+}
+.bx-filter-title .pull-right{
+	margin-top: -2px;
+}
+#btn-filter.active svg {
+	transition: .4s;
+	transform:rotateX(180deg);
+}
+#btn-filter svg {
+
+	transition: .4s;
+}
+.bx-filter-section .btn:hover {
+
+	text-decoration: none !important;
+
+}
+#del_filter {
+	background-color: #e6e6e6;
+	color: grey;
+border-radius: 4px;
+}
+.main-wrap{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 15px 7px 0px;
+}
+.arrayWrap {
+	max-width: 470px !important;
+	width: 100% !important;
 }
 #set_filter {
 	background-color: red;
@@ -11,7 +63,7 @@
 color: #fff;
 }
 .bx-filter-title{
-	background-color: #d4dae0;
+	background-color: #f5f5f5;
 }
 .container-fluid {
 	border: 1px solid #d4dae0;
@@ -38,6 +90,7 @@ outline: none;
 .bx-filter .bx-filter-section {
 	/*background: #edf6fc; /* color */
 	position: relative;
+	border: 1px solid lightgray;
 }
 
 .bx-filter .bx-filter-title {
@@ -45,13 +98,28 @@ outline: none;
 	color: #000;
 }
 /*Sections*/
-
+form.smartfilter{
+	height: 0;
+	opacity: 0;
+	transition: .4s;
+}
+form.smartfilter.active{
+	height: auto;
+	opacity: 1;
+	transition: .4s;
+}
 .bx-filter .bx-filter-parameters-box {
-	position: relative;
+	width: 200px;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	height: 10%;
 }
 .bx-filter .bx-filter-parameters-box-title {
+	width: 100%;
+	text-align: center;
 	font-size: 13px;
-	padding-bottom: 7px;
+
 }
 @media (min-width: 992px) {
 	.bx-filter .bx-filter-section .col-md-4:nth-child(3n+1) {
@@ -64,13 +132,10 @@ outline: none;
 	}
 }
 .bx-filter .bx-filter-parameters-box-title span {
-	color: #039be5;
-	border-bottom: 1px solid transparent;
+
 	cursor: pointer;
 }
-.bx-filter .bx-filter-parameters-box-title span:hover {
-	border-color: #039be5;
-}
+
 .bx-filter .bx-filter-parameters-box.bx-active .bx-filter-parameters-box-title span {
 	/*color: #95a1a8;*/
 }
@@ -228,7 +293,7 @@ COLOR
 }
 .bx-filter .bx-ui-slider-pricebar-vd {
 	z-index: 60;
-	/*background: #849da4;/* COLOR */
+
 }
 .bx-filter .bx-ui-slider-pricebar-vn {
 	z-index: 70;
@@ -426,6 +491,8 @@ COLOR
 *
 */
 .bx-filter .bx-filter-param-label {
+	padding: 0;
+	margin: 0;
 	min-height: 20px;
 	font-weight: normal;
 	cursor: pointer;

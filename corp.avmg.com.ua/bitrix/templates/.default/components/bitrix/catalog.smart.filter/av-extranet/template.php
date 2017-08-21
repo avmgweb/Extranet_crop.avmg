@@ -26,15 +26,19 @@ $this->addExternalCss("/bitrix/css/main/font-awesome.css");
 ?>
 <div class="bx-filter <?=$templateData["TEMPLATE_CLASS"]?> <?if ($arParams["FILTER_VIEW_MODE"] == "HORIZONTAL") echo "bx-filter-horizontal"?>">
     
-	<div class="bx-filter-section container-fluid">
-		<div class="row title-filter"><div class="<?if ($arParams["FILTER_VIEW_MODE"] == "HORIZONTAL"):?>col-sm-12 col-md-12<?else:?>col-lg-12<?endif?> bx-filter-title"><span>ФИЛЬТР</span><div class="pull-right">  <button type="button" id="btn-filter"  data-toggle="collapse" data-target="#demo">
-                        <img class="icon icons8-Плюс" width="32" height="32" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAESUlEQVR4Xu2bj5EOQRDF+yIgA0RwRIAIEMERASJABIgAERwRIAJEgAyIgPpd7VRNtfnT0zOz9mq3q74659ud6X79+vXszN6J7NxOdh6/HAAcDNg5AkcJrESA6yJyW0RuLh9+5xPbDxHh83X5fF5+n+riTAYQ7JmI3E8Eaw0KQN6LyLsFFOt95utmAHBHRJ6JCD9H2icReSEi/BxmIwEg4y8nBK6DBYCnoxgxCgACf1JJy4fFaQL4lQgAAK8uAPLve5XxXi1AdLGhFwCE7HwRtpQjBE0Nv3V6+XDRkBwYCOaDHrHsAYAsfVyypuMjcBiBiI0wgCbjKSBg011vSXgBQODIPJSN7aeIkLWhQhVNwLyw6ZqaFxBgQvO8HgBymadVkXWcmWmADhtosbG5mNAKAFT8ksg8qoxTaxpgI74ahFstpdcKAMHDgNgedYhcL2CU2xs1CMIICCZrAYAMP95Q8MGVFBNeG9ryxf1WAMg62Y+NmicDWzCEUWsCLIANRbMCQLuLl7aoPaDMFrya/+F7hJFg4+5AR6A9dgNA4AAQGwM3txw1xh/1uzUZuYBcflom1dkfRf3RAAAMq854sVRlQQ2AVO3faGkzBf7NAIA2/V3NWdSCGgBa+Vni8nw/wmYAgF9knc2XYMWOUAMANOOdG5ab0GyEzQJArw14HoG1SSsBoOn0O/Pg4wVjFgD4o8fOlm0JAI3kSPqnnKyxsQVoXQbZ1WppUl3/bEc9b/Gicu1MBuAn23JVHSgBoFEc0ftjTGYCoNcE7DAn9yhLAGgBNC0tGxgyEwDdvrNCWALA66C+rwET06VWrTD5fwBQwNyEYOL+gwEmIvsvWq0EEI748fIyiyCP7/os8iIFRxssMHH3C6HdL4VTz9ZWAbJInLfLeMZ2PQwxkRbCkVvgswDQzM0KYE0E+f4ybojobbGuDZHdb4nBAv1UCMLsDPXajBLgwDbesss+BQbnLaLm2m42oDMaAJefFgBSLEAcWRlu6WCEk6t4tVfNvkUEQyJTWsBxFF1hC8YBqT6mMy3drQxIdQT+738ci2vAVzkcDZNy/naqPBi5NmhlU+p4/FvhnaV/xm9hADdTY4BwRY1EFui3axpH9fqlDLbuKVfzu0mtABAgE9AaNQhoAiUxWxg5CebNEF3zBE8nqB6Jx1nyAMD9TMR6QIMA8pRE78lxjknMi+DpZ3tX8C1dIOVQjglcCziwwUzFSu0QMFlPnUu6g+8FIGgCwWphDPHwXXjZ2aMP4WXr3IEsgsd3bqC9JaCDSb0/pK8BCOqT8iBrulZhFCUFzcOnBJr5PaDSIKMACOIIEPHRtCfrtXtY4dF1msQuN+hIAMIcZI+zudFAEDjjDhXYGQAEIKB0eNlZv9pay3L4ns2M8LL1kIzriWcCEM+FisOM+E9mNCgEG//JDJl2i5sV4bUAsPqz+nUHAKtDvrEJDwZsLCGru7N7BvwFXXH5QXo2apMAAAAASUVORK5CYII="></button></div></div></div>
-        <div id="demo" class="collapse">
+	<div class="bx-filter-section">
+		<div class=" title-filter"><div class="<?if ($arParams["FILTER_VIEW_MODE"] == "HORIZONTAL"):?>col-sm-12 <?else:?><?endif?> bx-filter-title"><span>ФИЛЬТР</span><div class="pull-right">
+                    <button type="button" id="btn-filter" onclick="showParams()"><svg height="30" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M14.83 16.42l9.17 9.17 9.17-9.17 2.83 2.83-12 12-12-12z"/><path d="M0-.75h48v48h-48z" fill="none"/></svg></button>
+                </div>
+            </div>
+        </div>
+        <div>
             <form name="<?echo $arResult["FILTER_NAME"]."_form"?>" action="<?echo $arResult["FORM_ACTION"]?>" method="get" class="smartfilter">
 			<?foreach($arResult["HIDDEN"] as $arItem):?>
 			<input type="hidden" name="<?echo $arItem["CONTROL_NAME"]?>" id="<?echo $arItem["CONTROL_ID"]?>" value="<?echo $arItem["HTML_VALUE"]?>" />
 			<?endforeach;?>
-			<div class="row input-wrap">
+			<div class="main-wrap">
+
 				<?foreach($arResult["ITEMS"] as $key=>$arItem)//prices
 				{
 					$key = $arItem["ENCODED_ID"];
@@ -63,58 +67,7 @@ $this->addExternalCss("/bitrix/css/main/font-awesome.css");
 							$prices[$step_num] = number_format($arItem["VALUES"]["MAX"]["VALUE"], $precision, ".", "");
 						}
 						?>
-						<div class="<?if ($arParams["FILTER_VIEW_MODE"] == "HORIZONTAL"):?>col-sm-6 col-md-4<?else:?>col-lg-12<?endif?> bx-filter-parameters-box bx-active">
-							<span class="bx-filter-container-modef"></span>
-							<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)"><span><?=$arItem["NAME"]?> <i data-role="prop_angle" class="fa fa-angle-<?if ($arItem["DISPLAY_EXPANDED"]== "Y"):?>up<?else:?>down<?endif?>"></i></span></div>
-							<div class="bx-filter-block" data-role="bx_filter_block">
-								<div class="row bx-filter-parameters-box-container">
-									<div class="col-xs-6 bx-filter-parameters-box-container-block bx-left">
-										<i class="bx-ft-sub"><?=GetMessage("CT_BCSF_FILTER_FROM")?></i>
-										<div class="bx-filter-input-container">
-											<input
-												class="min-price"
-												type="text"
-												name="<?echo $arItem["VALUES"]["MIN"]["CONTROL_NAME"]?>"
-												id="<?echo $arItem["VALUES"]["MIN"]["CONTROL_ID"]?>"
-												value="<?echo $arItem["VALUES"]["MIN"]["HTML_VALUE"]?>"
-												size="5"
-												onkeyup="smartFilter.keyup(this)"
-											/>
-										</div>
-									</div>
-									<div class="col-xs-6 bx-filter-parameters-box-container-block bx-right">
-										<i class="bx-ft-sub"><?=GetMessage("CT_BCSF_FILTER_TO")?></i>
-										<div class="bx-filter-input-container">
-											<input
-												class="max-price"
-												type="text"
-												name="<?echo $arItem["VALUES"]["MAX"]["CONTROL_NAME"]?>"
-												id="<?echo $arItem["VALUES"]["MAX"]["CONTROL_ID"]?>"
-												value="<?echo $arItem["VALUES"]["MAX"]["HTML_VALUE"]?>"
-												size="5"
-												onkeyup="smartFilter.keyup(this)"
-											/>
-										</div>
-									</div>
 
-									<div class="col-xs-10 col-xs-offset-1 bx-ui-slider-track-container">
-										<div class="bx-ui-slider-track" id="drag_track_<?=$key?>">
-											<?for($i = 0; $i <= $step_num; $i++):?>
-											<div class="bx-ui-slider-part p<?=$i+1?>"><span><?=$prices[$i]?></span></div>
-											<?endfor;?>
-
-											<div class="bx-ui-slider-pricebar-vd" style="left: 0;right: 0;" id="colorUnavailableActive_<?=$key?>"></div>
-											<div class="bx-ui-slider-pricebar-vn" style="left: 0;right: 0;" id="colorAvailableInactive_<?=$key?>"></div>
-											<div class="bx-ui-slider-pricebar-v"  style="left: 0;right: 0;" id="colorAvailableActive_<?=$key?>"></div>
-											<div class="bx-ui-slider-range" id="drag_tracker_<?=$key?>"  style="left: 0%; right: 0%;">
-												<a class="bx-ui-slider-handle left"  style="left:0;" href="javascript:void(0)" id="left_slider_<?=$key?>"></a>
-												<a class="bx-ui-slider-handle right" style="right:0;" href="javascript:void(0)" id="right_slider_<?=$key?>"></a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 						<?
 						$arJsParams = array(
 							"leftSlider" => 'left_slider_'.$key,
@@ -160,8 +113,7 @@ $this->addExternalCss("/bitrix/css/main/font-awesome.css");
 					)
 						continue;
 					?>
-					<div class="<?if ($arParams["FILTER_VIEW_MODE"] == "HORIZONTAL"):?>col-sm-6 col-md-4<?else:?>col-lg-12<?endif?> bx-filter-parameters-box <?if ($arItem["DISPLAY_EXPANDED"]== "Y"):?>bx-active<?endif?>">
-						<span class="bx-filter-container-modef"></span>
+					<div class="<?if ($arParams["FILTER_VIEW_MODE"] == "HORIZONTAL"):?>col-sm-6 col-md-4<?else:?><?endif?> bx-filter-parameters-box <?if ($arItem["DISPLAY_EXPANDED"]== "Y"):?>bx-active<?endif?>">
 						<div class="bx-filter-parameters-box-title" onclick="smartFilter.hideFilterProps(this)">
 							<span class="bx-filter-parameters-box-hint"><?=$arItem["NAME"]?>
 								<?if ($arItem["FILTER_HINT"] <> ""):?>
@@ -183,7 +135,7 @@ $this->addExternalCss("/bitrix/css/main/font-awesome.css");
 						</div>
 
 						<div class="bx-filter-block" data-role="bx_filter_block">
-							<div class="row bx-filter-parameters-box-container">
+							<div class=" bx-filter-parameters-box-container">
 							<?
 							$arCur = current($arItem["VALUES"]);
 							switch ($arItem["DISPLAY_TYPE"])
@@ -603,7 +555,7 @@ $this->addExternalCss("/bitrix/css/main/font-awesome.css");
 									?>
 									<div class="col-xs-12">
 										<?foreach($arItem["VALUES"] as $val => $ar):?>
-											<div class="checkbox">
+											<div class="checkbox" onclick="setParams(event)">
 												<label data-role="label_<?=$ar["CONTROL_ID"]?>" class="bx-filter-param-label <? echo $ar["DISABLED"] ? 'disabled': '' ?>" for="<? echo $ar["CONTROL_ID"] ?>">
 													<span class="bx-filter-input-checkbox">
 														<input
@@ -633,7 +585,7 @@ $this->addExternalCss("/bitrix/css/main/font-awesome.css");
 				<?
 				}
 				?>
-                <div class="col-xs-12 bx-filter-button-box">
+                <div class=" bx-filter-button-box">
                     <div class="bx-filter-block">
                         <div class="bx-filter-parameters-box-container">
                             <input
