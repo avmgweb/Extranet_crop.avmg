@@ -1,17 +1,5 @@
-<?
-if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
-/* -------------------------------------------------------------------- */
-/* ---------------------------- empty list ---------------------------- */
-/* -------------------------------------------------------------------- */
-?>
-<?if(!count($arResult["SECTIONS"])):?>
-<?=GetMessage("AV_CATALOG_SECTION_LIST_EMPTY_LIST")?>
-<?endif?>
-<?
-/* -------------------------------------------------------------------- */
-/* ------------------------------- list ------------------------------- */
-/* -------------------------------------------------------------------- */
-?>
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die()?>
+<?if(count($arResult["SECTIONS"])):?>
 <div class="av-catalog-section-list">
 	<?foreach($arResult["SECTIONS"] as $index => $sectionInfo):?>
 		<?if($arParams["SECTION_ID"] == $sectionInfo["IBLOCK_SECTION_ID"]):?>
@@ -37,3 +25,4 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 	<div class="border-hider-vertical"></div>
 	<div class="border-hider-horizontal"></div>
 </div>
+<?endif?>

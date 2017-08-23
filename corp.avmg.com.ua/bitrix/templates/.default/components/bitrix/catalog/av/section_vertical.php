@@ -26,25 +26,31 @@ else
             <div class="col-md-7 no-padding ">Кол-во товаров на странице:</div>
             <div class="col-md-3 no-padding ">
             <?
+            if (!isset($_COOKIE["catalogElCount"])) {
+                $_COOKIE["catalogElCount"] = "10";
+            }
+
             $APPLICATION->IncludeComponent
             (
                 "av:form.select", 'av',
                 [
-                    "VALUE" => $_COOKIE['catalogElCount'],
+                    "VALUE" => $_COOKIE['catalogElCount'] ? $_COOKIE['catalogElCount'] : 10,
                     "NAME"  => 'av_catalog_element_count',
-                    "LIST"  => [1 => 1, 2 => 2, 100 => 100]
+                    "LIST"  => [10 => 10, 20 => 20, 50 => 50]
                 ]
             );
             ?>
             </div>
         </div>
 
-
-
         <div class="cube" <?if($_COOKIE['viewCatalog'] != "card") {?> onclick="setView('card'); window.location.reload()" <?}?>><svg height="24px" version="1.1" viewBox="0 0 24 24" width="24px" ><title/><desc/><defs/><g fill="none" fill-rule="evenodd" id="miu" stroke="none" stroke-width="1"><g id="Artboard-1" transform="translate(-467.000000, -479.000000)"><g id="slice" transform="translate(215.000000, 119.000000)"/><path d="M468,480 L468,486 L474,486 L474,480 L468,480 Z M476,480 L476,486 L482,486 L482,480 L476,480 Z M484,480 L484,486 L490,486 L490,480 L484,480 Z M468,488 L468,494 L474,494 L474,488 L468,488 Z M476,488 L476,494 L482,494 L482,488 L476,488 Z M484,488 L484,494 L490,494 L490,488 L484,488 Z M468,496 L468,502 L474,502 L474,496 L468,496 Z M476,496 L476,502 L482,502 L482,496 L476,496 Z M484,496 L484,502 L490,502 L490,496 L484,496 Z" fill="#000000" id="editor-grid-view-block-glyph"/></g></g></svg></div>
         <div class="line " <?if($_COOKIE['viewCatalog'] != "line") {?> onclick="setView('line'); window.location.reload()" <?}?>><svg height="25px" version="1.1" viewBox="0 0 15 14" width="24px" ><title/><desc/><defs/><g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1"><g fill="#000000" id="Core" transform="translate(-87.000000, -509.000000)"><g id="view-list" transform="translate(87.500000, 509.000000)"><path d="M0,9 L4,9 L4,5 L0,5 L0,9 L0,9 Z M0,14 L4,14 L4,10 L0,10 L0,14 L0,14 Z M0,4 L4,4 L4,0 L0,0 L0,4 L0,4 Z M5,9 L17,9 L17,5 L5,5 L5,9 L5,9 Z M5,14 L17,14 L17,10 L5,10 L5,14 L5,14 Z M5,0 L5,4 L17,4 L17,0 L5,0 L5,0 Z" id="Shape"/></g></g></g></svg></div>
     </div>
-
+    <?
+    if (!$_COOKIE["viewCatalog"]) {
+        $_COOKIE["viewCatalog"] = "line";
+    }
+    ?>
 <?
 if ($isFilter || $isSidebar): ?>
 	<div class="<?=(isset($arParams['FILTER_HIDE_ON_MOBILE']) && $arParams['FILTER_HIDE_ON_MOBILE'] === 'Y' ? ' hidden-xs' : '')?>">
@@ -53,7 +59,7 @@ if ($isFilter || $isSidebar): ?>
 				<?
 				$APPLICATION->IncludeComponent(
 					"bitrix:catalog.smart.filter",
-					"av-extranet",
+					"av",
 					array(
 						"IBLOCK_TYPE" => $arParams["IBLOCK_TYPE"],
 						"IBLOCK_ID" => $arParams["IBLOCK_ID"],

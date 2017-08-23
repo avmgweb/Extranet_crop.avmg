@@ -168,7 +168,7 @@ $(function()
 
 			     if($(this).hasClass("back"))    value--;
 			else if($(this).hasClass("forward")) value++;
-			if(value < 1)                        value = 1;
+			if(!value || value < 1)              value = 1;
 
 			$input
 				.attr("value", value)
@@ -250,8 +250,9 @@ $(function()
 		.on("click", '.ask-price-call-form', function()
 			{
 			var
-				$askFormBlock = $('.av-catalog-element-ask-form'),
-				$itemRow      = $(this).closest('.item-row');
+				$askFormBlock    = $('.av-catalog-element-ask-form'),
+				$itemRow         = $(this).closest('.item-row'),
+			    positionQuantity = $itemRow.find('.counter input').val();
 			if(!$askFormBlock.length) return;
 
 			AvBlurScreen("on", 1000);
@@ -292,7 +293,9 @@ $(function()
 						.setFormElememtParam
 							(
 							"value",
-							$itemRow.find('.counter input').val()+' '+$itemRow.find('.measure').text()
+							positionQuantity
+								? positionQuantity+' '+$itemRow.find('.measure').text()
+								: ''
 							);
 			});
 	});
