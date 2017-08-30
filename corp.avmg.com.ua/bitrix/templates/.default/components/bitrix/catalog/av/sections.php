@@ -1,24 +1,7 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die()?>
 <div class="av-catalog">
 	<div class="col-lg-4 col-md-4 hidden-sm hidden-xs menu-col">
-		<?
-		$APPLICATION->IncludeComponent
-			(
-			"bitrix:menu", "av_shop_vertical",
-				[
-				"ROOT_MENU_TYPE"     => 'left',
-				"MAX_LEVEL"          => 2,
-				"CHILD_MENU_TYPE"    => 'left',
-				"USE_EXT"            => 'Y',
-				"DELAY"              => 'N',
-				"ALLOW_MULTI_SELECT" => 'N',
-
-				"MENU_CACHE_TYPE"       => 'A',
-				"MENU_CACHE_TIME"       => 360000,
-				"MENU_CACHE_USE_GROUPS" => 'Y'
-				]
-			);
-		?>
+		<?=$arResult["CATALOG_MENU"]?>
 	</div>
 	<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 body-col">
 		<?

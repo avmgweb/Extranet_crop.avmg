@@ -39,7 +39,7 @@
 	{
 	margin-top: 25px;
 	overflow: hidden;
-	text-align: center;
+	text-align: left;
 	width: calc(100% - 100px);
 	height: 100px;
 	}
@@ -51,7 +51,7 @@
 	}
 .av-catalog-section-list > .item .title
 	{
-	margin: 25px 0;
+	margin: 25px;
 	}
 .av-catalog-section-list > .border-hider-vertical,
 .av-catalog-section-list > .border-hider-horizontal
